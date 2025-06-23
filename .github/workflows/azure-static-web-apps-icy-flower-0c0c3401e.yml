@@ -44,7 +44,7 @@ jobs:
           ###### Configuraciones de Repositorio/Build ######
           app_location: "/" # Ruta del código fuente de tu aplicación (la raíz de Angular)
           api_location: "" # Ruta del código fuente de tu API (déjalo vacío si no tienes API de Azure Functions)
-          output_location: "dist/grupoSADE" # Carpeta de salida de tu aplicación Angular compilada
+          output_location: "dist/websade/browser" # Carpeta de salida de tu aplicación Angular compilada
           # Si habías añadido 'github_id_token' por alguna razón y no usas OIDC específicamente,
           # puedes eliminarla para simplificar: # github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### Fin de Configuraciones de Repositorio/Build ######

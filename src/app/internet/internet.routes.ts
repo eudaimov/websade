@@ -9,7 +9,6 @@ import {Ia} from './pages/ia/ia';
 import {Consultoria} from './pages/consultoria/consultoria';
 import {Contactanos} from './pages/contactanos/contactanos';
 import {Noticias} from './pages/noticias/noticias';
-import {Trabaja} from './pages/trabaja/trabaja';
 
 export const internetRoute: Routes = [
   {

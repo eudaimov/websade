@@ -1,0 +1,22 @@
+.principal{
+  display:flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  color:white;
+  background-position: center;
+}
+
+.mainTitle{
+  font-family: Kanit, sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.secondaryTitle {
+  font-family: "Roboto", sans-serif;
+  font-size:1.5rem;
+  font-weight: 300;
+  font-style: normal;
+}

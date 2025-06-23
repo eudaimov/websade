@@ -23,7 +23,7 @@ on:
 env:
   APP_LOCATION: "/" # La raíz de tu repositorio es donde está tu código Angular.
   API_LOCATION: "" # Deja vacío si no tienes una API de Azure Functions. Si la tienes, pon "api" o la ruta correcta.
-  APP_ARTIFACT_LOCATION: "dist/grupo-sade" # ¡IMPORTANTE! Ajusta esto. Angular suele compilar en 'dist/nombre-de-tu-proyecto'.
+  APP_ARTIFACT_LOCATION: "dist/grupoSADE" # ¡IMPORTANTE! Ajusta esto. Angular suele compilar en 'dist/nombre-de-tu-proyecto'.
   AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }} # Secreto con el token de despliegue.
 
 permissions:
@@ -82,3 +82,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ env.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: "close"
+          app_location: ''

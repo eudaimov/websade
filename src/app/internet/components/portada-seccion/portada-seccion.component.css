@@ -1,0 +1,17 @@
+
+.mainTitle{
+  font-family: Kanit, sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.secondaryTitle{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+img{
+  max-height: 50vh;
+}

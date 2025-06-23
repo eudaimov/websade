@@ -2,54 +2,49 @@ import {AfterViewInit, Component, CUSTOM_ELEMENTS_SCHEMA,  signal} from '@angula
 // import function to register Swiper custom elements
 import {register, SwiperContainer} from 'swiper/element/bundle';
 import {SwiperOptions} from 'swiper/types';
-import {TituloSection} from '../titulo-section/titulo-section';
+import {Titulosection} from '../titulosection/titulosection';
 // register Swiper custom elements
 register();
 
 @Component({
-  selector: 'nuestras-empresas',
+  selector: 'app-hablan-nosotros',
   standalone: true,
-  imports: [ ],
-  templateUrl: './nuestras-empresas.html',
-  styleUrl: './nuestras-empresas.css',
+  imports: [
+    Titulosection
+  ],
+  templateUrl: './hablannosotros.html',
+  styleUrl: './hablannosotros.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class NuestrasEmpresas implements AfterViewInit{
+export class Hablannosotros implements AfterViewInit{
   swiperElement = signal<SwiperContainer | null>(null)
   ngAfterViewInit(): void {
 
-      const swiperElementConstructor = document.querySelector('#nuestrasEmpresas');
+      const swiperElementConstructor = document.querySelector('swiper-container');
       const swiperOption : SwiperOptions = {
         enabled:true,
         effect:"slide",
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
         loop: true,
-        slidesPerView:2,
+        slidesPerView:1,
+        pagination:  {
+          enabled:true,
+          clickable: true,
+          type: "bullets",// La paginación suele ser un objeto para más opciones
+          el: ".swiper-pagination", // Si tienes un elemento para la paginación en tu HTML
+        },
         breakpoints:{
           640:{
             slidesPerView:1,
             spaceBetween: 20
           },
-          768:{
+          1100:{
             slidesPerView:2,
             spaceBetween: 20
-          },
-          992:{
-            slidesPerView:3,
-            spaceBetween: 20
-          },
-          1100:{
-            slidesPerView:4,
-            spaceBetween: 20
-          },
-          1400:{
-            slidesPerView:5,
-            spaceBetween: 20
           }
-
         }
       }
       Object.assign(swiperElementConstructor!, swiperOption);

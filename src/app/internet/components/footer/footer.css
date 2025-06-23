@@ -1,0 +1,64 @@
+footer{
+  background-color: #153963;
+  color:#84909c;
+  padding: 3rem;
+}
+.enlace:hover{
+  color:#FFF;
+  cursor:pointer;
+}
+.logo{
+  max-width: 210px;
+}
+/* G:/.../footer/footer.css */
+
+/* ... tus otros estilos de footer ... */
+
+.social-icon {
+  width: 24px;  /* O el tamaño que necesites */
+  height: 24px;
+
+  /* ¡Aquí pones el color exacto que quieres! */
+  background-color: #84909c;
+
+  /* Propiedades de la máscara */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* Asignamos a cada clase el SVG que le corresponde */
+.linkedin-icon {
+  -webkit-mask-image: url('/linkedin.svg'); /* Asegúrate de que la ruta sea correcta */
+  mask-image: url('/linkedin.svg');
+}
+
+.twitter-icon {
+  -webkit-mask-image: url('/twitter-x.svg');
+  mask-image: url('/twitter-x.svg');
+}
+
+.mobile-icon {
+  -webkit-mask-image: url('/mobile.svg');
+  mask-image: url('/mobile.svg');
+}
+.position-icon {
+  -webkit-mask-image: url('/position.svg');
+  mask-image: url('/position.svg');
+}
+.email-icon{
+  -webkit-mask-image: url('/email.svg');
+  mask-image: url('/email.svg');
+}
+
+/* Y si quieres que cambien de color al pasar el ratón... */
+.social-icon:hover {
+  background-color: #FFFFFF; /* Cambia a blanco en hover */
+  cursor: pointer;
+}
+.ayudas>img{
+  height: 120px;
+}

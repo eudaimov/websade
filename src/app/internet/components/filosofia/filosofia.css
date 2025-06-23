@@ -1,0 +1,42 @@
+.tab-filosofía{
+  background-color: #edf0f0;
+}
+.enlace{
+  position:relative;
+}
+
+.enlace::before {
+  position:absolute;
+  content: '';
+  border: transparent solid 2px;
+  width: 0;
+  left:-10%;
+  bottom: 0;
+  transform: translateY(10px);
+  transition: width 1s;
+}
+.enlace:hover::before {
+  border: #22b7e8 solid 2px;
+  width: 120%;
+}
+
+.select{
+  font-weight: 600;
+  color: #000;
+}
+.select::before{
+  position:absolute;
+  content: '';
+  border: #22b7e8 solid 2px;;
+  width: 120%;
+  left:-10%;
+  bottom: 0;
+  transform: translateY(10px);
+}
+.imgCruci{
+  width: 150px;
+  height: 150px;
+}
+.title span{
+  color:DodgerBlue;
+}

@@ -1,0 +1,32 @@
+<nav class="navegador">
+
+  <div class="logo" [routerLink]="'/home'">
+    <img src="LogoSADE.png" alt="logo" height="291" width="667">
+  </div>
+  <div class="principal hidden xl:flex">
+    <div class="demo">Solicitar una demo</div>
+  @for(item of internetMenu; track $index){
+    <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'" class="enlace">
+      {{item.titulo}}
+    </div>
+  }
+    <div class="enlace" (click)="redirigirToInfoJob()">Trabaja con nosotros</div>
+  </div>
+  <div class="idioma">
+    <span>ES</span>
+    <span> | </span>
+    <span>EN</span>
+  </div>
+
+</nav>
+<nav>
+  <div class="secondary hidden xl:flex">
+    @for(item of internetMenuSecondary; track $index){
+      <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'"
+           [class]="item.route.replace('/','')" class="enlaceSecundario" >
+        {{item.titulo}}
+      </div>
+    }
+  </div>
+</nav>
+

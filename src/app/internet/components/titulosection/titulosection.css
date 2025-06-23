@@ -1,0 +1,8 @@
+.titulo{
+  font-family: Kanit, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.titulo span{
+  border-bottom: .2rem solid #1f8ccf;
+}

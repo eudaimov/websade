@@ -1,0 +1,25 @@
+#portada-home{
+  background-image: url('/portadaHome.png');
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 79vh;
+}
+.btn-descubrelo{
+  width: 150px;
+  display:flex;
+  justify-content: center;
+}
+.btn-descubrelo:hover{
+  outline: white 2px solid;
+}
+div{
+  position: relative;
+}
+.texto{
+  transition: font-weight 0.3s, transform 0.3s;
+}
+#portada-home > div:hover > .texto{
+  transform: scale(1.1);
+  font-weight: bold;
+}

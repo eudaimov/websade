@@ -1,0 +1,40 @@
+swiper-slide{
+  padding: 2rem;
+}
+
+
+swiper-container{
+  padding-inline: 14%;
+}
+
+.quotimage{
+  vertical-align: baseline;
+}
+
+.swiper-pagination{
+  position: relative;
+  margin-block: 3rem;
+}
+
+.logoEmpresa{
+  width: 70px;
+}
+
+.autor, .empresa{
+  font-size: 20px;
+  color: #22b7e8;
+}
+.empresa{
+  font-weight: bold;
+}
+.cargo{
+  font-style: italic;
+  font-weight: 200;
+}
+.texto-informativo{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.3rem;
+  color: grey;
+  text-align: center;
+
+}

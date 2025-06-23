@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import 'swiper/swiper-bundle.css';
+
+
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+*{
+  box-sizing: border-box;
+}
+
+.normal{
+  font-family: Kanit, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #636363;
+}
+

@@ -13,10 +13,13 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 300;
+  text-shadow: 5px 5px 5px #000000;
+
 }
 .secondaryTitle {
   font-family: "Roboto", sans-serif;
   font-size:1.5rem;
   font-weight: 300;
   font-style: normal;
+  text-shadow: 5px 5px 5px #000000;
 }

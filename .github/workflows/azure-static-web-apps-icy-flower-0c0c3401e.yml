@@ -14,33 +14,53 @@ jobs:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
+    permissions: # Aseguramos los permisos necesarios para la acción de despliegue y OIDC si lo usas
+      id-token: write # Necesario si en algún momento usas OIDC para Azure
+      contents: read
+      pull-requests: write # Añadido para que la acción de despliegue pueda comentar en los PRs
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # <<< IMPORTANTE: Actualizado a v4 para resolver errores de permisos
         with:
           submodules: true
           lfs: false
+
+      # --- PASO CRÍTICO: Configurar la versión de Node.js para Angular ---
+      # Esto resuelve el error "Node.js version v18.20.8 detected. The Angular CLI requires a minimum Node.js version of v20.19 or v22.12."
+      - name: Set up Node.js for Angular build
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x' # O '22.x' si tu Angular lo prefiere o lo soporta
+          cache: 'npm' # Para caché de dependencias (npm install más rápido)
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
+          # Asegúrate de que este token coincida exactamente con el secreto en GitHub
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_FLOWER_0C0C3401E }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Usado para integraciones de GitHub (ej. comentarios en PRs)
           action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "dist/grupoSADE" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+          ###### Configuraciones de Repositorio/Build ######
+          app_location: "/" # Ruta del código fuente de tu aplicación (la raíz de Angular)
+          api_location: "" # Ruta del código fuente de tu API (déjalo vacío si no tienes API de Azure Functions)
+          output_location: "dist/grupoSADE" # Carpeta de salida de tu aplicación Angular compilada
+          # Si habías añadido 'github_id_token' por alguna razón y no usas OIDC específicamente,
+          # puedes eliminarla para simplificar: # github_id_token: ${{ steps.idtoken.outputs.result }}
+          ###### Fin de Configuraciones de Repositorio/Build ######
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     name: Close Pull Request Job
+    permissions:
+      contents: none # No necesita leer el contenido para cerrar el PR
     steps:
       - name: Close Pull Request
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_FLOWER_0C0C3401E }}
           action: "close"
+          # Es crucial que el token también se pase aquí para cerrar el PR en Static Web Apps
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_FLOWER_0C0C3401E }}
+          # No necesitas app_location ni otros parámetros aquí para solo cerrar el PR

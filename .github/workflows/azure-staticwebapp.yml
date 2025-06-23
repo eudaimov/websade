@@ -1,3 +1,15 @@
+# This workflow will build and push a web application to an Azure Static Web App when you change your code.
+#
+# This workflow assumes you have already created the target Azure Static Web App.
+# For instructions see https://docs.microsoft.com/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript
+#
+# To configure this workflow:
+#
+# 1. Set up a secret in your repository named AZURE_STATIC_WEB_APPS_API_TOKEN with the value of your Static Web Apps deployment token.
+#    For instructions on obtaining the deployment token see: https://docs.microsoft.com/azure/static-web-apps/deployment-token-management
+#
+# 3. Change the values for the APP_LOCATION, API_LOCATION and APP_ARTIFACT_LOCATION, AZURE_STATIC_WEB_APPS_API_TOKEN environment variables (below).
+#    For instructions on setting up the appropriate configuration values go to https://docs.microsoft.com/azure/static-web-apps/front-end-frameworks
 name: Deploy web app to Azure Static Web Apps
 
 on:
@@ -35,8 +47,8 @@ jobs:
       - name: Set up Node.js for Angular build
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x' # Puedes usar '20.x' o '22.x' según la versión exacta de Angular que uses.
-                               # El error indicaba '^20.19.0 || ^22.12.0 || >=24.0.0', así que '20.x' debería ser suficiente.
+          node-version: '22.x' # Puedes usar '20.x' o '22.x' según la versión exacta de Angular que uses.
+          # El error indicaba '^20.19.0 || ^22.12.0 || >=24.0.0', así que '20.x' debería ser suficiente.
           cache: 'npm' # Usa 'npm' para caché de dependencias. Si usas yarn, cámbialo a 'yarn'.
 
       - name: Build And Deploy

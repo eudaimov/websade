@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import {PortadaSeccionComponent} from '../../components/portada-seccion/portada-seccion.component';
-import {BannerTalento} from '../../components/banner-talento/banner-talento';
+import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 
 @Component({
   selector: 'app-contactanos-page',
   imports: [
     PortadaSeccionComponent,
-    BannerTalento
+    Buscamostalento
   ],
   templateUrl: './contactanos.html',
   styleUrl: './contactanos.css'

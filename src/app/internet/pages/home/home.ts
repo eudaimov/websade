@@ -7,7 +7,7 @@ import {Contador} from '../../components/contador/contador';
 import {Numerosimportan} from '../../components/numerosimportan/numerosimportan';
 import {Colorcomponent} from '../../components/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
-import {BannerTalento} from '../../components/banner-talento/banner-talento';
+import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 
 @Component({
   selector: 'app-home-page',
@@ -17,7 +17,7 @@ import {BannerTalento} from '../../components/banner-talento/banner-talento';
     Nuestrasempresas,
     Numerosimportan,
     Colorcomponent,
-    BannerTalento
+    Buscamostalento
   ],
   templateUrl: './home.html',
   styleUrl: './home.css'

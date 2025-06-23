@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {Colorcomponent} from '../../components/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
+import {Bannerseccion} from '../../components/bannerseccion/bannerseccion';
 
 @Component({
   selector: 'app-consultoria-page',
   imports: [
-    Colorcomponent
+    Colorcomponent,
+    Bannerseccion
   ],
   templateUrl: './consultoria.html',
   styleUrl: './consultoria.css'

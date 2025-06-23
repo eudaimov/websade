@@ -1,0 +1,272 @@
+#bannerTalento * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+#bannerTalento {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 50vh;
+  background: linear-gradient(to right,#22b5e8,#1ea3dc,#1d98d4,#1888ca);
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+#bannerTalento>div {
+  width: 50%;
+  display: flex
+}
+
+#cubos {
+  justify-content: center;
+  margin-bottom: 2rem;
+  z-index: 2
+}
+
+#bannerTalento img {
+  object-fit: scale-down;
+  widtH: 250px
+}
+
+#lupa {
+  max-height: 450px;
+  position: absolute;
+  bottom: 50px;
+  max-width: 70%;
+  animation-name: animacionLupa;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear
+}
+
+#talentoMensaje {
+  font-family: 'Kanit', sans-serif;
+  margin-top: 2rem;
+  flex-direction: column;
+  color: white;
+  padding-left: 10vw;
+  justify-content: center;
+  z-index: 2
+}
+.buscamos{
+  font-size:3rem;
+}
+
+
+#talentoMensaje .somos {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-block: 3rem;
+}
+
+
+
+
+#fondoBurbujas {
+  width: 100% !important;
+  height: 100%;
+  position: absolute
+}
+
+.destellos {
+  background-color: rgba(255,255,255,0.3);
+  position: absolute;
+  border-radius: 100%;
+  bottom: 0;
+  animation: animacionBurbujas 4s linear infinite;
+  z-index: 1;
+  -webkit-box-shadow: inset 0 0 3px 3px rgba(255,255,255,0.3);
+  box-shadow: inset 0 0 3px 3px rgba(255,255,255,0.3);
+  box-shadow: 0 0 7px 7px rgba(255,255,255,0.1)
+}
+
+.destellos:nth-child(1) {
+  width: 15px !important;
+  height: 15px;
+  left: 25%;
+  animation-duration: 18s;
+  animation-delay: 1s
+}
+
+.destellos:nth-child(2) {
+  width: 6px !important;
+  height: 6px;
+  left: 55%;
+  animation-duration: 16s;
+  animation-delay: 2s
+}
+
+.destellos:nth-child(3) {
+  width: 8px !important;
+  height: 8px;
+  left: 85%;
+  animation-duration: 12s;
+  animation-delay: 3s
+}
+
+.destellos:nth-child(4) {
+  width: 12px !important;
+  height: 12px;
+  left: 75%;
+  animation-duration: 24s;
+  animation-delay: .5s
+}
+
+.destellos:nth-child(5) {
+  width: 4px !important;
+  height: 4px;
+  left: 95%;
+  animation-duration: 14s
+}
+
+.destellos:nth-child(6) {
+  width: 13px !important;
+  height: 13px;
+  right: 60%;
+  animation-duration: 30s;
+  animation-delay: 5s
+}
+
+.destellos:nth-child(7) {
+  width: 9px !important;
+  height: 9px;
+  right: 95%;
+  animation-duration: 22s
+}
+
+@media screen and (max-width: 1060px) {
+  #talentoMensaje h1 {
+    font-size:2.6rem
+  }
+
+  #talentoMensaje .bttTituloSecundario {
+    font-size: 1.7rem
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #bannerTalento {
+    min-height:100vh;
+    flex-direction: column;
+    gap: 2rem
+  }
+
+  #talentoMensaje {
+    padding-left: 15vw;
+    order: 1
+  }
+
+  #talentoMensaje>* {
+    margin-top: .5rem;
+    margin-bottom: .5rem
+  }
+
+  #cubos {
+    max-height: 63vh;
+    padding-top: 4rem;
+    transform: translateY(0);
+    order: 2
+  }
+
+  #bannerTalento>div {
+    width: 100%
+  }
+
+  #talentoMensaje h1 {
+    font-size: 2.3rem
+  }
+
+  #talentoMensaje .bttTituloSecundario {
+    font-size: 1.6rem
+  }
+}
+
+@keyframes animacionLupa {
+  0% {
+    transform: translateX(0) translateY(50px)
+  }
+
+  6.25% {
+    transform: translateX(20px) translateY(45px)
+  }
+
+  12.5% {
+    transform: translateX(35px) translateY(35px)
+  }
+
+  18.75% {
+    transform: translateX(45px) translateY(20px)
+  }
+
+  25% {
+    transform: translateX(50px) translateY(0)
+  }
+
+  31.25% {
+    transform: translateX(45px) translateY(-20px)
+  }
+
+  37.5% {
+    transform: translateX(35px) translateY(-35px)
+  }
+
+  43.75% {
+    transform: translateX(20px) translateY(-45px)
+  }
+
+  50% {
+    transform: translateX(0) translateY(-50px)
+  }
+
+  56.25% {
+    transform: translateX(-20px) translateY(-45px)
+  }
+
+  62.5% {
+    transform: translateX(-35px) translateY(-35px)
+  }
+
+  68.75% {
+    transform: translateX(-45px) translateY(-20px)
+  }
+
+  75% {
+    transform: translateX(-50px) translateY(0)
+  }
+
+  81.25% {
+    transform: translateX(-45px) translateY(20px)
+  }
+
+  87.5% {
+    transform: translateX(-35px) translateY(35px)
+  }
+
+  93.75% {
+    transform: translateX(-20px) translateY(45px)
+  }
+
+  100% {
+    transform: translateX(0) translateY(50px)
+  }
+}
+
+@keyframes animacionBurbujas {
+  0% {
+    width: 0;
+    height: 0
+  }
+
+  3% {
+    width: 20px;
+    height: 20px
+  }
+
+  100% {
+    bottom: 100%
+  }
+}

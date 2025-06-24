@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PortadaSeccionComponent} from '../../components/portada-seccion/portada-seccion.component';
+import {PortadaSeccionComponent} from '../../components/00 shared/portada-seccion/portada-seccion.component';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 
 @Component({

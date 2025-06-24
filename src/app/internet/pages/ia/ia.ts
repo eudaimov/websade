@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
-import {Colorcomponent} from '../../components/colorcomponent/colorcomponent';
+import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
 import {Bannerseccion} from '../../components/bannerseccion/bannerseccion';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
+import {Iagenerativa} from '../../components/iagenerativa/iagenerativa';
 
 @Component({
   selector: 'app-ia-page',
   imports: [
     Colorcomponent,
     Bannerseccion,
-    Buscamostalento
+    Buscamostalento,
+    Iagenerativa
   ],
   templateUrl: './ia.html',
   styleUrl: './ia.css'

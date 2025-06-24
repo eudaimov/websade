@@ -1,0 +1,13 @@
+<div>
+  @for (item of cards; track item ){
+    <card-duo
+      [title]="item.title"
+      [description]="item.description"
+      [image]="item.image"
+      [picturesDescription]="item.picturesDescription"
+      [par]="item.par">
+
+    </card-duo>
+
+  }
+</div>

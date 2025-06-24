@@ -1,5 +1,5 @@
 import {Component, computed, Input} from '@angular/core';
-import {CardColor} from '../../interfaces/carColor';
+import {CardColor} from '../../../interfaces/carColor';
 
 @Component({
   selector: 'color-component',

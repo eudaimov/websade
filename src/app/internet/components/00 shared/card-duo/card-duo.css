@@ -1,0 +1,18 @@
+.title{
+  font-family: 'Kanit-Light', sans-serif;
+  font-size:2rem;
+  border-bottom: #22b7e8 4px solid;
+  margin-bottom: 2rem;
+}
+.imageCardDuo{
+  overflow: hidden;
+}
+.imageCardDuo img{
+  object-fit: cover;
+  height: 100%;
+  transition: transform 0.9s ease-in-out;
+}
+.imageCardDuo img:hover{
+  transform: scale(1.1);
+}
+

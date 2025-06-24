@@ -2,7 +2,7 @@ import {AfterViewInit, Component, CUSTOM_ELEMENTS_SCHEMA,  signal} from '@angula
 // import function to register Swiper custom elements
 import {register, SwiperContainer} from 'swiper/element/bundle';
 import {SwiperOptions} from 'swiper/types';
-import {Titulosection} from '../titulosection/titulosection';
+import {Titulosection} from '../00 shared/titulosection/titulosection';
 // register Swiper custom elements
 register();
 

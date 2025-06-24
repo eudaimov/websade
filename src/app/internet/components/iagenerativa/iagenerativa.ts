@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import {Titulosection} from '../00 shared/titulosection/titulosection';
 
 @Component({
-  selector: 'origenes',
+  selector: 'app-iagenerativa',
   imports: [
     Titulosection
   ],
-  templateUrl: './origenes.html',
-  styleUrl: './origenes.css'
+  templateUrl: './iagenerativa.html',
+  styleUrl: './iagenerativa.css'
 })
-export class Origenes {
+export class Iagenerativa {
 
 }

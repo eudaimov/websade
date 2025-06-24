@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {internetRoute} from '../../internet.routes';
+import {internetRoute} from '../../../internet.routes';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
 interface MenuItem {

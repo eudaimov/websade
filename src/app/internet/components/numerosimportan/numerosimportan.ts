@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {Titulosection} from '../titulosection/titulosection';
-import {Contador} from '../contador/contador';
+import {Titulosection} from '../00 shared/titulosection/titulosection';
+import {Contador} from '../00 shared/contador/contador';
 
 @Component({
   selector: 'numeros-importan',

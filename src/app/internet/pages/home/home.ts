@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import {PortadaSeccionComponent} from '../../components/portada-seccion/portada-seccion.component';
+import {PortadaSeccionComponent} from '../../components/00 shared/portada-seccion/portada-seccion.component';
 import {Portadahome} from '../../components/portadahome/portadahome';
 import {Hablannosotros} from '../../components/hablannosotros/hablannosotros';
 import {Nuestrasempresas} from '../../components/nuestraempresas/nuestrasempresas';
-import {Contador} from '../../components/contador/contador';
+import {Contador} from '../../components/00 shared/contador/contador';
 import {Numerosimportan} from '../../components/numerosimportan/numerosimportan';
-import {Colorcomponent} from '../../components/colorcomponent/colorcomponent';
+import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 

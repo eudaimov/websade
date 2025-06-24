@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import {Titulosection} from '../00 shared/titulosection/titulosection';
 
 @Component({
-  selector: 'origenes',
+  selector: 'tecnologia',
   imports: [
     Titulosection
   ],
-  templateUrl: './origenes.html',
-  styleUrl: './origenes.css'
+  templateUrl: './tecnologia.html',
+  styleUrl: './tecnologia.css'
 })
-export class Origenes {
+export class Tecnologia {
 
 }

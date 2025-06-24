@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {NavbarComponent} from './internet/components/navbar/navbar.component';
+import {NavbarComponent} from './internet/components/00 shared/navbar/navbar.component';
 import { initFlowbite } from 'flowbite';
-import {Footer} from './internet/components/footer/footer';
+import {Footer} from './internet/components/00 shared/footer/footer';
 
 @Component({
   selector: 'app-root',

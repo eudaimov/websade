@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, computed, signal} from '@angular/core';
 import {internetRoute} from '../../../internet.routes';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
@@ -21,6 +21,19 @@ const internetRoutes = internetRoute[0].children ?? [];
   standalone: true
 })
 export class NavbarComponent {
+
+  showNavBar = signal(false);
+  showNavBarComputed = computed(()=>{
+    if(!this.showNavBar()){
+      return 'menuCerrado'
+    }else{
+      return 'menuAbierto'
+    }
+  })
+
+  toogleShowNavBar(){
+    this.showNavBar.update(value => !value)
+  }
 
   internetMenu: MenuItem[] = internetRoutes
     .filter(item => item.path !== 'home' && item.path !== '**')

@@ -5,9 +5,9 @@
     </div>
     <div class="text-justify normal" [innerHTML]="description">
     </div>
-    <div class="pictures">
+    <div class="flex justify-center gap-8 mt-16">
       @for (picture of picturesDescription; track picture){
-        <img src="{{picture}}" alt="{{picture}}" title="{{picture}}"/>
+        <img class="h-[70px]" src="{{picture}}" alt="{{picture}}" title="{{picture}}"/>
       }
     </div>
   </div>

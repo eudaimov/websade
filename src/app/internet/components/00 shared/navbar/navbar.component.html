@@ -1,9 +1,11 @@
-<nav class="navegador">
-
+<nav class="sticky  navegador flex justify-between items-center w-full px-8" style="top:0; z-index:100; background: white">
+  <div class="block xl:hidden" (click)="toogleShowNavBar()">
+    <img src="menu.svg" alt="" width="40">
+  </div>
   <div class="logo" [routerLink]="'/home'">
     <img src="LogoSADE.png" alt="logo" height="291" width="667">
   </div>
-  <div class="principal hidden xl:flex">
+  <div class="principal hidden xl:flex w-full justify-end">
     <div class="demo">Solicitar una demo</div>
   @for(item of internetMenu; track $index){
     <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'" class="enlace">
@@ -12,14 +14,12 @@
   }
     <div class="enlace" (click)="redirigirToInfoJob()">Trabaja con nosotros</div>
   </div>
-  <div class="idioma">
-    <span>ES</span>
-    <span> | </span>
-    <span>EN</span>
+  <div class="idioma flex justify-end">
+    <img src="spa.svg" alt="idioma" width="30"/>
   </div>
 
 </nav>
-<nav>
+<nav class="sticky" style="top: 100px; background: white; z-index: 100">
   <div class="secondary hidden xl:flex">
     @for(item of internetMenuSecondary; track $index){
       <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'"
@@ -29,4 +29,17 @@
     }
   </div>
 </nav>
+<menu class="xl:hidden fixed top-[100px] z-10 bg-[#FFFFFFDE] h-[calc(100vh_-_100px)] w-full p-12" [class]="showNavBarComputed()">
+  @for(item of internetMenu; track $index){
+    <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMobile'"  class="enlaceMobile" (click)="toogleShowNavBar()">
+      {{item.titulo}}
+    </div>
+  }
+  @for(item of internetMenuSecondary; track $index){
+    <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMarcado'" class="enlaceMobile"
+         [class]="item.route.replace('/','')" (click)="toogleShowNavBar()" >
+      {{item.titulo}}
+    </div>
+  }
+</menu>
 

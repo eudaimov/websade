@@ -172,3 +172,18 @@ nav{
 .enlaceSecundario:hover::after, .marcado::after{
   width: 100%;
 }
+
+.enlaceMobile{
+  width: 100%;
+  padding-block:0.7rem ;
+  border-bottom: gray solid 2px;
+}
+menu{
+  transition: transform 1s ease-in-out;
+}
+.menuAbierto{
+ transform: translateX(0) ;
+}
+.menuCerrado{
+  transform: translateX(-100vw) ;
+}

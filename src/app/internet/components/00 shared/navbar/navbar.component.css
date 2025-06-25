@@ -172,6 +172,10 @@ nav{
 .enlaceSecundario:hover::after, .marcado::after{
   width: 100%;
 }
+.marcadoMobile{
+  font-weight: bold;
+  color:#023671;
+}
 
 .enlaceMobile{
   width: 100%;

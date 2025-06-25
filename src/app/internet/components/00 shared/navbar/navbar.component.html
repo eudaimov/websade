@@ -1,4 +1,4 @@
-<nav class="sticky xl:static navegador flex justify-between items-center w-full px-8" style="top:0; z-index:100; background: white">
+<nav class="sticky xl:static navegador flex justify-between items-center w-full px-8 shadow-xl" style="top:0; z-index:100; background: white">
   <div class="relative w-[35px] h-[35px] flex xl:hidden cursor-pointer" (click)="toogleShowNavBar()">
     <div class="absolute transition-all duration-500 ease-in-out transform"
       [class]="{
@@ -52,7 +52,7 @@
     </div>
   }
   @for(item of internetMenuSecondary; track $index){
-    <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMarcado'" class="enlaceMobile"
+    <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMobile'" class="enlaceMobile"
          [class]="item.route.replace('/','')" (click)="toogleShowNavBar()" >
       {{item.titulo}}
     </div>

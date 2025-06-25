@@ -20,7 +20,7 @@ export class Tdiferenciales {
       image: 'herramientasColaborativas.jpg',
       description: "<p class='normal mb-4'>Las soluciones de colaboración impulsan la productividad, generan innovación, y hacen que el conocimiento fluya y florezca dentro de la organización. En SADE lo abordamos teniendo en cuenta todos los ángulos de influencia posible, y utilizamos las tecnologías más punteras, como Liferay, y Sharepoint, para crear soluciones realmente eficientes, útiles y accesibles desde cualquier dispositivo.</p>",
       title: "Desarrollo de entornos de colaboración",
-      picturesDescription: ['liferay.png', 'sharePoint.png'],
+      picturesDescription: ['liferaylogo.jpg', 'sharePoint.png'],
       par: false
     },
     {
@@ -38,7 +38,7 @@ export class Tdiferenciales {
       image: 'desarrolloMovil.jpg',
       description: "<p class='normal mb-4'>La movilidad de los recursos de la empresa supone a la vez un reto y una oportunidad. En el contexto competitivo actual, las empresas tienen recursos humanos dotados de una alta movilidad, con una importante necesidad operativa y estratégica de acceso a la información corporativa anytime, anywhere. En SADE desarrollamos en las principales tecnologías del mercado aplicaciones que ayudan a las empresas a mejorar la productividad.</p>",
       title: "Desarrollo Móvil",
-      picturesDescription: ['flutter.png', 'xamarin.png', 'AndroidLogo.png', 'ios.png'],
+      picturesDescription: ['flutter.png', 'maui-logo.svg', 'AndroidLogo.png', 'ios.png'],
       par: false
     },
     {

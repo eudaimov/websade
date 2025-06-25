@@ -3,6 +3,7 @@
 }
 .enlace{
   position:relative;
+  text-align: center;
 }
 
 .enlace::before {

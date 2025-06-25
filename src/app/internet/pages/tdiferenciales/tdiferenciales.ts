@@ -3,18 +3,39 @@ import {Bannerseccion} from "../../components/00 shared/bannerseccion/bannersecc
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 import {CardDuo} from '../../components/00 shared/card-duo/card-duo';
 import {CarDuoMultiple} from '../../components/00 shared/car-duo-multiple/car-duo-multiple';
+import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
+import {CardColor} from '../../interfaces/carColor';
 
 @Component({
   selector: 'app-tdiferenciales-page',
   imports: [
     Bannerseccion,
     Buscamostalento,
-    CarDuoMultiple
+    CarDuoMultiple,
+    Colorcomponent
   ],
   templateUrl: './tdiferenciales.html',
   styleUrl: './tdiferenciales.css'
 })
 export class Tdiferenciales {
+  cardTecnologiasFuturo: CardColor[] =[
+    {
+      titulo: 'Especialización',
+      texto: 'Disponemos de equipos expertos en todas las áreas TIC',
+      imagen: 'especializacion.png',
+    },
+    {
+      titulo: 'Comprometidos con la innovación',
+      texto: 'Más del 30% de la actividad empresarial es I+D+i',
+      imagen: 'comprometidos.png',
+    },
+    {
+      titulo: 'Pensando en el cliente',
+      texto: 'Implementación tecnológica analizando las características de cada cliente',
+      imagen: 'pensando.png',
+    },
+  ]
+
   cardImagenes: CardDuo[] = [
     {
       image: 'herramientasColaborativas.jpg',

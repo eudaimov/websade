@@ -8,6 +8,7 @@ import {Numerosimportan} from '../../components/numerosimportan/numerosimportan'
 import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
+import {NuestraActualidad} from '../../components/nuestra-actualidad/nuestra-actualidad';
 
 @Component({
   selector: 'app-home-page',
@@ -17,7 +18,8 @@ import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
     Nuestrasempresas,
     Numerosimportan,
     Colorcomponent,
-    Buscamostalento
+    Buscamostalento,
+    NuestraActualidad
   ],
   templateUrl: './home.html',
   styleUrl: './home.css'

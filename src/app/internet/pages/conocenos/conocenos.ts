@@ -4,6 +4,7 @@ import {Origenes} from '../../components/origenes/origenes';
 import {Filosofia} from '../../components/filosofia/filosofia';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 import {Alianzas} from '../../components/alianzas/alianzas';
+import {Equiposade} from '../../components/equiposade/equiposade';
 
 @Component({
   selector: 'app-conocenos-home-page',
@@ -12,7 +13,8 @@ import {Alianzas} from '../../components/alianzas/alianzas';
     Origenes,
     Filosofia,
     Buscamostalento,
-    Alianzas
+    Alianzas,
+    Equiposade
   ],
   templateUrl: './conocenos.html',
   styleUrl: './conocenos.css'

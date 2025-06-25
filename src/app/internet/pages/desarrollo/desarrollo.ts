@@ -3,18 +3,55 @@ import {Bannerseccion} from '../../components/00 shared/bannerseccion/bannersecc
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 import {CarDuoMultiple} from '../../components/00 shared/car-duo-multiple/car-duo-multiple';
 import {CardDuo} from '../../components/00 shared/card-duo/card-duo';
+import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
+import {CardColor} from '../../interfaces/carColor';
 
 @Component({
   selector: 'app-desarrollo-page',
   imports: [
     Bannerseccion,
     Buscamostalento,
-    CarDuoMultiple
+    CarDuoMultiple,
+    Colorcomponent
   ],
   templateUrl: './desarrollo.html',
   styleUrl: './desarrollo.css'
 })
 export class Desarrollo {
+  cardClavesFactoria : CardColor[] = [
+    {
+      titulo: 'Demanda privada en crecimiento',
+      texto: 'Con el fin de afrontar las innovaciones necesarias en el sector, reducción de costes y la mejora de calidad.',
+      imagen: 'desafios.png',
+    },
+    {
+      titulo: 'Comunicación flexible y relaciones excelentes',
+      texto: 'Cada vez es más importante contar con procesos de seguimiento de las tareas y sistemas de control de calidad.',
+      imagen: 'comunicacion.png',
+    },
+    {
+      titulo: 'Más allá del ahorro de costes',
+      texto: 'Más que un ahorro de costes para la organización, hablamos de ahorro de tiempo, menor riesgo y mayor estabilidad.',
+      imagen: 'ahorro.png',
+    },
+    {
+      titulo: 'Colaboración por la innovación',
+      texto: 'La asociatividad y colaboración entre empresas impulsa las fortalezas, al mismo tiempo que mantiene su autonomía.',
+      imagen: 'colaboracion.png',
+    },
+    {
+      titulo: 'Enfoque Integral a largo plazo',
+      texto: 'Hoy en día el outsourcing es más una estrategia de desarrollo a largo plazo que un servicio en si mismo.',
+      imagen: 'enfoque.png',
+    },
+    {
+      titulo: 'Contratación legal',
+      texto: 'Cualquier actividad puede externalizarse si se identifica como "legalmente externalizable".',
+      imagen: 'legal.png',
+    },
+  ]
+
+
   cardImagenes: CardDuo[] = [
     {
       image: 'externalizacionServicios.jpg',

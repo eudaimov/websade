@@ -28,7 +28,7 @@
       {{item.titulo}}
     </div>
   }
-    <div class="enlace" (click)="redirigirToInfoJob()">Trabaja con nosotros</div>
+    <div class="enlace" (click)="redirigirToInfoJob()">Nuestras Ofertas</div>
   </div>
   <div class="idioma flex justify-end">
     <img src="spa.svg" alt="idioma" width="30"/>
@@ -51,6 +51,9 @@
       {{item.titulo}}
     </div>
   }
+  <div   class="enlaceMobile" (click)="toogleShowNavBar(); redirigirToInfoJob()">
+    Nuestras Ofertas
+  </div>
   @for(item of internetMenuSecondary; track $index){
     <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMobile'" class="enlaceMobile"
          [class]="item.route.replace('/','')" (click)="toogleShowNavBar()" >

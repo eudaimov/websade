@@ -3,9 +3,7 @@ swiper-slide{
 }
 
 
-swiper-container{
-  padding-inline: 14%;
-}
+
 
 .quotimage{
   vertical-align: baseline;
@@ -14,10 +12,6 @@ swiper-container{
 .swiper-pagination{
   position: relative;
   margin-block: 3rem;
-}
-
-.logoEmpresa{
-  width: 70px;
 }
 
 .autor, .empresa{
@@ -38,3 +32,4 @@ swiper-container{
   text-align: center;
 
 }
+

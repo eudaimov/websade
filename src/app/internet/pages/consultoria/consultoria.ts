@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {Colorcomponent} from '../../components/00 shared/colorcomponent/colorcomponent';
 import {CardColor} from '../../interfaces/carColor';
-import {Bannerseccion} from '../../components/bannerseccion/bannerseccion';
+import {Bannerseccion} from '../../components/00 shared/bannerseccion/bannerseccion';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 import {Tecnologia} from '../../components/tecnologia/tecnologia';
 import {CardDuo} from '../../components/00 shared/card-duo/card-duo';

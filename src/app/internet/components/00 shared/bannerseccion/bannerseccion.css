@@ -10,11 +10,9 @@
 
 .mainTitle{
   font-family: Kanit, sans-serif;
-  font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 300;
   text-shadow: 5px 5px 5px #000000;
-
 }
 .secondaryTitle {
   font-family: "Roboto", sans-serif;

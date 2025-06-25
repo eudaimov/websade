@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Bannerseccion} from "../../components/bannerseccion/bannerseccion";
+import {Bannerseccion} from "../../components/00 shared/bannerseccion/bannerseccion";
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 import {CardDuo} from '../../components/00 shared/card-duo/card-duo';
 import {CarDuoMultiple} from '../../components/00 shared/car-duo-multiple/car-duo-multiple';

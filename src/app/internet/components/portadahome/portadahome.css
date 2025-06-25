@@ -1,9 +1,6 @@
 #portada-home{
-  background-image: url('/portadaHome.png');
-  background-size: cover ;
-  background-position: center;
   background-repeat: no-repeat;
-  height: 79vh;
+  background-size: cover ;
 }
 .btn-descubrelo{
   width: 150px;
@@ -22,4 +19,28 @@ div{
 #portada-home > div:hover > .texto{
   transform: scale(1.1);
   font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  #portada-home{
+    background-image: url('/portadaHomeMobile.png');
+    background-position: center;
+  }
+}
+@media screen and (min-width: 700px) {
+  #portada-home{
+
+    background-image: url('/portadaHome.png');
+    background-position: center;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #portada-home {
+    height: calc(100vh - 100px);
+  }
+}
+@media screen and (min-width: 1280px) {
+  #portada-home {
+    height: calc(100vh - 152px);
+  }
 }

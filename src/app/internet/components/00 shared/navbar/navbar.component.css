@@ -179,7 +179,7 @@ nav{
   border-bottom: gray solid 2px;
 }
 menu{
-  transition: transform 1s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 .menuAbierto{
  transform: translateX(0) ;

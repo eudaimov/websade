@@ -1,8 +1,3 @@
-#bannerTalento * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0
-}
 
 #bannerTalento {
   position: relative;
@@ -45,24 +40,20 @@
   transform: translateY(-50px)
 }
 
-#talentoMensaje {
+.talentoMensaje {
   font-family: 'Kanit', sans-serif;
-  margin-top: 2rem;
-  flex-direction: column;
+  font-size:3rem;
   color: white;
-  padding-left: 10vw;
-  justify-content: center;
   z-index: 2
 }
 .buscamos{
   font-size:3rem;
 }
 
-
-#talentoMensaje .somos {
+.somos {
   font-family: 'Kanit', sans-serif;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 250;
   margin-block: 3rem;
 }
 

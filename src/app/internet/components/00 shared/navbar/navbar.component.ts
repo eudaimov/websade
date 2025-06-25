@@ -22,6 +22,18 @@ const internetRoutes = internetRoute[0].children ?? [];
 })
 export class NavbarComponent {
 
+  languageSelect = signal<string>('spa.svg')
+  languageOther = signal('eng.svg')
+  changeSelect(){
+    if(this.languageSelect() === 'spa.svg'){
+      this.languageSelect.set('eng.svg')
+      this.languageOther.set('spa.svg')
+    }else{
+      this.languageSelect.set('spa.svg')
+      this.languageOther.set('eng.svg')
+    }
+  }
+
   showNavBar = signal(false);
   showNavBarComputed = computed(()=>{
     if(!this.showNavBar()){

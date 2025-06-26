@@ -1,0 +1,50 @@
+:host * {
+  box-sizing: border-box;
+}
+input, textarea{
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+input[type="radio"]{
+  -webkit-appearance: none;
+  appearance: none;
+  background: #ffffff;
+  margin:0;
+  font: inherit;
+  color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  border: 3px solid dodgerblue;
+  outline: white 10px solid;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 10px 10px dodgerblue;
+  outline: 3px dodgerblue solid;
+  background: dodgerblue;
+  border: white 3px solid
+}
+input[type="radio"]:checked::before {
+  transform: scale(0.6);
+  border:none;
+}
+
+
+
+input:focus, textarea:focus{
+  background-color: #fff;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,0.25);
+  color: #495057;
+  outline: 0;
+}

@@ -7,7 +7,7 @@ import {Tdiferenciales} from './pages/tdiferenciales/tdiferenciales';
 import {Desarrollo} from './pages/desarrollo/desarrollo';
 import {Ia} from './pages/ia/ia';
 import {Consultoria} from './pages/consultoria/consultoria';
-import {Contactanos} from './pages/contactanos/contactanos';
+import {ContactanosPage} from './pages/contactanos/contactanos';
 import {Noticias} from './pages/noticias/noticias';
 import {Demo} from './pages/demo/demo';
 
@@ -44,7 +44,7 @@ export const internetRoute: Routes = [
         path: 'contactanos',
         title: 'Contáctanos',
         data: {"category": 'principal'},
-        component: Contactanos
+        component: ContactanosPage
       },
       {
         path: 'consultoria',

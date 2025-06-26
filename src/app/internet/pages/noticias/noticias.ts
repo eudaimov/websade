@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
 
 @Component({
   selector: 'app-noticias-page',
-  imports: [],
+  imports: [
+    Buscamostalento
+  ],
   templateUrl: './noticias.html',
   styleUrl: './noticias.css'
 })

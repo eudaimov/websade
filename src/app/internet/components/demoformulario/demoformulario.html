@@ -1,0 +1,66 @@
+
+<form class="grid grid-cols-2 p-12 gap-4">
+  <select
+     #asunto id="asunto"
+    placeholder="Categoria"
+    class="col-span-2">
+    <option value="none" disabled>Elije una opcion</option>
+    <option value="Fujitsu" >IA Privada Fujitsu</option>
+    <option value="Selektra" >Selektra H (Reclutamiento + IA)</option>
+    <option value="Office635" >Herramientas colaborativas Office365</option>
+
+  </select>
+  <input
+    type="text" #nombre id="nombre"
+    placeholder="Nombre"
+    class="col-span-2 md:col-span-1"
+  />
+  <input type="text" #apellidos id="apellidos"
+      placeholder="Apellidos"
+         class="col-span-2 md:col-span-1"
+  />
+  <input type="email" #email id="email"
+         class="col-span-2 md:col-span-1"
+         placeholder="Correo electrónico"
+  />
+  <input type="tel" #telefono id="telefono"
+         class="col-span-2 md:col-span-1"
+         placeholder="Teléfono de contacto"
+  />
+  <textarea  #mensaje id="mensaje"
+             placeholder="Mensaje"
+    class="col-span-2"
+  ></textarea>
+  <div class="col-span-2 flex gap-4 "
+  >
+    <input type="text" name="adjunto" id="adjunto" disabled placeholder="Archivo adjunto"
+      class="w-full"
+    >
+    <div class="flex justify-center items-center
+     bg-blue-500 text-white px-12 rounded-lg">
+      Seleccionar
+    </div>
+  </div>
+  <div class="col-span-2 flex gap-4 items-center">
+    <label class="formcontrol">
+
+      <input type="radio" class="" name="" id="politica">
+    </label>
+
+    <span>He leído y acepto la <strong>política de privacidad</strong> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</span>
+  </div>
+  <div class="col-span-2 flex gap-4 items-center">
+    <label class="formcontrol">
+
+      <input type="radio" class="" name="" id="autorizacion">
+    </label>
+
+    <span>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</span>
+  </div>
+
+  <div class="col-span-2 flex justify-center">
+
+    <div class="px-8 py-4 rounded-lg w-[200px] bg-[dodgerblue] text-white hover:text-[dodgerblue] font-white cursor-pointer text-center font-bold
+          hover:bg-white  outline-solid outline-dodgerblue hover:outline-2 transition-all duration-500 ease-in-out">ENVIAR</div>
+  </div>
+</form>

@@ -3,6 +3,7 @@ import {PortadaSeccionComponent} from '../../components/00 shared/portada-seccio
 import {Quebuscamos} from '../../components/quebuscamos/quebuscamos';
 import {Quebuscamoscard} from '../../components/quebuscamoscard/quebuscamoscard';
 import {EnvianosCurriculumBanner} from '../../components/envianosCurriculumBanner/envianosCurriculumBanner';
+import {EnvianosCV} from '../../components/envianos-cv/envianos-cv';
 
 @Component({
   selector: 'app-talendo-page',
@@ -10,7 +11,8 @@ import {EnvianosCurriculumBanner} from '../../components/envianosCurriculumBanne
     PortadaSeccionComponent,
     Quebuscamos,
     Quebuscamoscard,
-    EnvianosCurriculumBanner
+    EnvianosCurriculumBanner,
+    EnvianosCV
   ],
   templateUrl: './talento.html',
   styleUrl: './talento.css'

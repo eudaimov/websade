@@ -32,26 +32,26 @@ footer{
 
 /* Asignamos a cada clase el SVG que le corresponde */
 .linkedin-icon {
-  -webkit-mask-image: url('/linkedin.svg'); /* Asegúrate de que la ruta sea correcta */
-  mask-image: url('/linkedin.svg');
+  -webkit-mask-image: url('./assets/linkedin.svg'); /* Asegúrate de que la ruta sea correcta */
+  mask-image: url('./assets/linkedin.svg');
 }
 
 .twitter-icon {
-  -webkit-mask-image: url('/twitter-x.svg');
-  mask-image: url('/twitter-x.svg');
+  -webkit-mask-image: url('./assets/twitter-x.svg');
+  mask-image: url('./assets/twitter-x.svg');
 }
 
 .mobile-icon {
-  -webkit-mask-image: url('/mobile.svg');
-  mask-image: url('/mobile.svg');
+  -webkit-mask-image: url('./assets/mobile.svg');
+  mask-image: url('./assets/mobile.svg');
 }
 .position-icon {
-  -webkit-mask-image: url('/position.svg');
-  mask-image: url('/position.svg');
+  -webkit-mask-image: url('./assets/position.svg');
+  mask-image: url('./assets/position.svg');
 }
 .email-icon{
-  -webkit-mask-image: url('/email.svg');
-  mask-image: url('/email.svg');
+  -webkit-mask-image: url('./assets/email.svg');
+  mask-image: url('./assets/email.svg');
 }
 
 /* Y si quieres que cambien de color al pasar el ratón... */

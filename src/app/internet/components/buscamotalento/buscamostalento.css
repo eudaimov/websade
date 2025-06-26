@@ -3,7 +3,7 @@
   position: relative;
   bottom: 0;
   width: 100%;
-  min-height: 50vh;
+  min-height: calc(100vh - 100px);
   background: linear-gradient(to right,#22b5e8,#1ea3dc,#1d98d4,#1888ca);
   display: flex;
   justify-content: center;
@@ -11,7 +11,6 @@
 }
 
 #bannerTalento>div {
-  width: 50%;
   display: flex
 }
 
@@ -26,7 +25,6 @@
 }
 
 #lupa {
-  max-height: 450px;
   position: absolute;
   bottom: 50px;
   max-width: 70%;
@@ -36,15 +34,13 @@
   animation-timing-function: linear
 }
 
-#imgCubos {
-  transform: translateY(-50px)
-}
 
 .talentoMensaje {
   font-family: 'Kanit', sans-serif;
   font-size:3rem;
   color: white;
-  z-index: 2
+  z-index: 2;
+  text-shadow: 8px 8px 8px #333333CC ;
 }
 .buscamos{
   font-size:3rem;
@@ -55,19 +51,24 @@
   font-size: 2rem;
   font-weight: 250;
   margin-block: 3rem;
+  text-shadow: 3px 3px 1px #333333CC;
 }
 
 
-
+#enlaceBanner{
+  z-index: 10;
+}
 #enlaceBanner span {
+  border-radius: 5px;
   border: white solid 1px;
   padding: 20px 40px
 }
 
-#enlaceBanner span:hover {
+#enlaceBanner:hover span {
   border: transparent solid 1px;
   background-color: white;
-  color: #1f8ccf
+  color: #1f8ccf;
+  font-weight: 700;
 }
 
 #enlaceBanner a {

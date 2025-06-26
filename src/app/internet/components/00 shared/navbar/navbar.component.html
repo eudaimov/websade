@@ -18,7 +18,7 @@
     </div>
 
   </div>
-  <div class="logo" [routerLink]="'/home'">
+  <div class="logo" [routerLink]="'/home'" (click)="showNavBar.set(false)">
     <img src="LogoSADE.png" alt="logo" height="291" width="667">
   </div>
   <div class="principal hidden xl:flex w-full justify-end">
@@ -52,6 +52,9 @@
   </div>
 </nav>
 <menu class="xl:hidden fixed top-[100px] z-10 bg-[#FFFFFFDE] h-[calc(100vh_-_100px)] w-full p-12" [class]="showNavBarComputed()">
+  <div [routerLink]="'/demo'"   class="enlaceMobile demoMobile" (click)="toogleShowNavBar()">
+    Solicitar una demo
+  </div>
   @for(item of internetMenu; track $index){
     <div [routerLink]="item.route"  [routerLinkActive]="'activeMobile marcadoMobile'"  class="enlaceMobile" (click)="toogleShowNavBar()">
       {{item.titulo}}

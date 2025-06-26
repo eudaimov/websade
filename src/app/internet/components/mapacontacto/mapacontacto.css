@@ -1,0 +1,12 @@
+#mapaContacto{
+  background-image: url('./assets/mapafondoSadedesaturado.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  row-gap:3rem;
+}
+
+.icono img{
+  width: 50px;
+  color:dodgerblue;
+}

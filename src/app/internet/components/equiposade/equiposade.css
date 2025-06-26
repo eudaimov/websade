@@ -40,7 +40,7 @@
 .maria{
   background-image: url("./img/deptRRHH.png");
 }
-.maria{
+.maria:hover{
   background-image: url("./img/Maria.png");
 }
 

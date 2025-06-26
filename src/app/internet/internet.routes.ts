@@ -9,6 +9,7 @@ import {Ia} from './pages/ia/ia';
 import {Consultoria} from './pages/consultoria/consultoria';
 import {Contactanos} from './pages/contactanos/contactanos';
 import {Noticias} from './pages/noticias/noticias';
+import {Demo} from './pages/demo/demo';
 
 export const internetRoute: Routes = [
   {
@@ -89,6 +90,14 @@ export const internetRoute: Routes = [
           "color":'#f48311',
         },
         component: Digitalizacion
+      },
+      {
+        path: 'demo',
+        title: 'Solicitar una demos',
+        data: {
+          category: 'suelta'
+        },
+        component: Demo
       },
       {
         path:'**',

@@ -22,10 +22,10 @@ export class Nuestrasempresas implements AfterViewInit{
       const swiperOption : SwiperOptions = {
         enabled:true,
         effect:"slide",
-        // autoplay: {
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        //},
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
         loop: true,
         slidesPerView:1,
         breakpoints:{

@@ -22,7 +22,7 @@
     <img src="LogoSADE.png" alt="logo" height="291" width="667">
   </div>
   <div class="principal hidden xl:flex w-full justify-end">
-    <div class="demo">Solicitar una demo</div>
+    <div class="demo" [routerLink]="'/demo'">Solicitar una demo</div>
   @for(item of internetMenu; track $index){
     <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'" class="enlace">
       {{item.titulo}}

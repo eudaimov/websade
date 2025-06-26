@@ -1,12 +1,12 @@
 <app-titulo-section titulo="Filosofía SADE"/>
-<p class="normal text-center mb-8">Conoce nuestros principios, misión y visión</p>
-<div class="tab-filosofía flex justify-center normal gap-x-12 p-4 mx-12">
+<p class="normal text-center mb-8 px-4">Conoce nuestros principios, misión y visión</p>
+<div class="tab-filosofía flex justify-center normal gap-x-12 p-4 md:mx-12">
   <div (click)="verTab('valores')" [class]="valoresSelect()" class="enlace">Nuestros valores</div>
   <div (click)="verTab('mision')" [class]="misionSelect()" class="enlace">Nuestra misión</div>
   <div (click)="verTab('vision')" [class]="visionSelect()" class="enlace">Nuestra visión</div>
 </div>
 <div [class]="valores()" class="p-12">
-  <p class="normal">Innovar con orientación al cliente de forma ágil en nuevos productos y servicios, a través de la
+  <p class="normal text-justify">Innovar con orientación al cliente de forma ágil en nuevos productos y servicios, a través de la
     tecnología, aprovechando las oportunidades y resolviendo las necesidades de las empresas, siempre con honestidad y
     cercanía.</p>
   <div class="flex flex-col  lg:flex-row gap-x-4 gap-y-8 px-2 md:px-25 mt-12">
@@ -14,7 +14,7 @@
       <img class="imgCruci" src="Sadecrucijama1.png" alt="S de Sade"/>
     </div>
     <div>
-      <div class="title text-2xl mb-8">
+      <div class="title text-2xl text-center lg:text-left mb-8">
         <span>SOLUCIONES</span> INNOVADORAS
       </div>
       <div class="normal text-justify">
@@ -35,7 +35,7 @@
       <img class="imgCruci" src="Sadecrucijama2.png" alt="S de Sade"/>
     </div>
     <div>
-      <div class="title text-2xl mb-8">
+      <div class="title text-2xl mb-8 text-center lg:text-left">
         <span>AGILIDAD </span> Y BÚSQUEDA DE BENEFICIO
       </div>
       <div class="normal text-justify">
@@ -55,7 +55,7 @@
       <img class="imgCruci" src="Sadecrucijama3.png" alt="S de Sade"/>
     </div>
     <div>
-      <div class="title text-2xl mb-8">
+      <div class="title text-2xl mb-8 text-center lg:text-left">
         <span>DEDICACIÓN </span> Y COMPROMISO
       </div>
       <div class="normal text-justify">
@@ -74,7 +74,7 @@
       <img class="imgCruci" src="Sadecrucijama4.png" alt="S de Sade"/>
     </div>
     <div>
-      <div class="title text-2xl mb-8">
+      <div class="title text-2xl mb-8 text-center lg:text-left">
         <span>ESPECIALIZACIÓN</span> TECNÓLOGICA
       </div>
       <div class="normal text-justify">

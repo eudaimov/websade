@@ -8,3 +8,47 @@
 .nombre{
   font-size: 0.7rem;
 }
+.sergio{
+  background-image: url('./img/tecnologiasOperaciones.png');
+}
+.sergio:hover{
+  background-image: url('./img/sergioNueva.jpg');
+}
+
+.ivan{
+  background-image: url('./img/direccion.png');
+}
+.ivan:hover{
+  background-image: url('./img/ivanOrigenes.png');
+}
+
+.diego{
+  background-image: url('./img/Financiero.png');
+}
+.diego:hover{
+  background-image: url('./img/Diego.png');
+
+}
+
+.alberto{
+  background-image: url("./img/deptComercial.png");
+}
+.alberto:hover{
+  background-image: url("./img/Alberto.jpg");
+}
+
+.maria{
+  background-image: url("./img/deptRRHH.png");
+}
+.maria{
+  background-image: url("./img/Maria.png");
+}
+
+.juan{
+  background-image: url("./img/gestionCuentas.png");
+
+}
+.juan:hover{
+  background-image: url("./img/Juan.png");
+}
+

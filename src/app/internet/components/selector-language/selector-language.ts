@@ -72,27 +72,23 @@ export class SelectorLanguage implements OnInit {
    * @param targetLang El código del idioma al que se desea cambiar (ej. 'es', 'en').
    */
   switchLanguage(targetLang: string): void {
-    if (this.currentLang() === targetLang) {
-      return; // Ya estamos en este idioma, no hacemos nada
+    // if (this.currentLang() === targetLang) {
+    //   return; // Ya estamos en este idioma, no hacemos nada
+    // }
+    console.info(targetLang)
+    if(targetLang ==='es'){
+      console.info('Entrando en español')
+      window.location.href= '/websade/es'
+    }else{
+      console.info('Entrando en ingles')
+      window.location.href= '/websade/en'
     }
 
-    // this.router.url devuelve la ruta actual de la aplicación *sin* el prefijo de idioma.
-    // Ej: si la URL del navegador es /es/conocenos, this.router.url es /conocenos.
-    // Ej: si la URL del navegador es /es/, this.router.url es /.
-    const currentAppPath = this.router.url;
-
-    // Construye la nueva URL completa para la recarga.
-    // window.location.origin: ej. http://192.168.199.1:8080
-    // targetLang: ej. 'en'
-    // currentAppPath: ej. '/conocenos' o '/'
-    const newUrl = `${window.location.origin}/${targetLang}${currentAppPath}`;
-
-    // Realiza la recarga completa de la página para cargar el bundle del nuevo idioma.
-    window.location.href = newUrl;
+    // const currentAppPath = this.router.url;
+    // const newUrl = `${window.location.origin}/${targetLang}${currentAppPath}`;
+    //
+    // window.location.href = newUrl;
   }
 
-  // El método changeSelect() ya no es necesario si la lógica de las banderas
-  // se maneja directamente en el HTML con las signals computadas.
-  // Si no lo usas en ningún otro sitio, puedes eliminarlo.
-  // changeSelect(): void { ... }
+
 }

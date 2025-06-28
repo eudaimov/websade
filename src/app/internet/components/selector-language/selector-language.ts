@@ -56,7 +56,7 @@ export class SelectorLanguage implements OnInit {
     // Divide la ruta para encontrar el prefijo de idioma
     // Ej: ["", "es", "conocenos"] -> "es"
     const pathSegments = fullBrowserPath.split('/');
-    const potentialLocale = pathSegments[1]; // El primer segmento después de la raíz '/'
+    const potentialLocale = pathSegments[2]; // El primer segmento después de la raíz '/'
 
     if (this.supportedLocales.includes(potentialLocale)) {
       this.currentLang.set(potentialLocale);

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting...</title>
+  <script>
+    // Obtiene el nombre de tu repositorio de la URL. Es crucial para GitHub Pages.
+    // Si tu URL es https://tu-usuario.github.io/websade/, esto obtendrá "/websade"
+    const repoName = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) || '/';
+
+    // Detecta el idioma del navegador (ej. "es-ES", "en-US", "es")
+    const userLang = navigator.language || navigator.userLanguage;
+
+    // Decide a qué idioma redirigir. Si el navegador está en español, va a /es/, si no, a /en/.
+    const targetLang = userLang.startsWith('es') ? 'es' : 'en';
+
+    // Construye la URL final y redirige
+    const redirectUrl = window.location.origin + repoName + targetLang;
+    window.location.replace(redirectUrl);
+  </script>
+</head>
+<body>
+<p>Redirecting to the correct language version...</p>
+</body>
+</html>

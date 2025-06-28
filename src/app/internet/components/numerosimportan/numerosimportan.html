@@ -1,23 +1,23 @@
-<app-titulo-section titulo="Los números importan"></app-titulo-section>
-<p class="text-center normal">Algunos datos relevantes sobre GRUPO SADE</p>
+<app-titulo-section titulo="Los números importan" i18n-titulo="@@home.numeros.titulo"></app-titulo-section>
+<p class="text-center normal" i18n="@@home.numeros.texto">Algunos datos relevantes sobre GRUPO SADE</p>
 <div class="flex md:flex-row flex-col my-16 justify-center gap-12 md:gap-24 ">
   <div>
     <contador [initialCounterValue]="0" [targetCounterValue]="20" [animationDuration]="2000"/>
-    <div class="flex justify-center">AÑOS</div>
+    <div class="flex justify-center" i18n="@@home.numeros.anyos">AÑOS</div>
   </div>
   <div>
     <contador [initialCounterValue]="0" [targetCounterValue]="70" [animationDuration]="4000"/>
-    <div class="flex justify-center">CLIENTES</div>
+    <div class="flex justify-center" i18n="@@home.numeros.clientes">CLIENTES</div>
   </div>
   <div>
     <contador [initialCounterValue]="0" [targetCounterValue]="100" [animationDuration]="4000"/>
-    <div class="flex justify-center">
+    <div class="flex justify-center" i18n="@@home.numeros.consultores">
       CONSULTORES
     </div>
   </div>
   <div>
     <contador [initialCounterValue]="0" [targetCounterValue]="200" [animationDuration]="5000"/>
-    <div class="flex justify-center">
+    <div class="flex justify-center" i18n="@@home.numeros.proyectos">
       PROYECTOS
     </div>
   </div>

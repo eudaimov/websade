@@ -9,18 +9,53 @@
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="navbar.nuestrasOfertas.navDesktop" datatype="html">
+        <source>Nuestras Ofertas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">31,35</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="navbar.solicitarDemoMobile" datatype="html">
         <source> Solicitar una demo </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navbar.nuestrasOfertas.navMovile" datatype="html">
+        <source> Nuestras Ofertas </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/components/00 shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">56,58</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="navbar.nuestrasOfertas" datatype="html">
-        <source> Nuestras Ofertas </source>
+      <trans-unit id="talento.buscamos" datatype="html">
+        <source>BUSCAMOS TU</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/00 shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">64,66</context>
+          <context context-type="sourcefile">src/app/internet/components/buscamotalento/buscamostalento.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.talento" datatype="html">
+        <source>TALENTO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/buscamotalento/buscamostalento.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.somos" datatype="html">
+        <source>SOMOS GRUPO SADE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/buscamotalento/buscamostalento.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.verMas" datatype="html">
+        <source>VER MÁS   &gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/buscamotalento/buscamostalento.html</context>
+          <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="hablannosotros.titulo" datatype="html">
@@ -98,6 +133,48 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html</context>
           <context context-type="linenumber">64,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.titulo" datatype="html">
+        <source>Los números importan</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.texto" datatype="html">
+        <source>Algunos datos relevantes sobre GRUPO SADE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.anyos" datatype="html">
+        <source>AÑOS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.clientes" datatype="html">
+        <source>CLIENTES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.consultores" datatype="html">
+        <source> CONSULTORES </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">15,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.numeros.proyectos" datatype="html">
+        <source> PROYECTOS </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/numerosimportan/numerosimportan.html</context>
+          <context context-type="linenumber">21,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="portada.home" datatype="html">

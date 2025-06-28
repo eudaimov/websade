@@ -28,7 +28,7 @@
       {{item.titulo}}
     </div>
   }
-    <div class="enlace" (click)="redirigirToInfoJob()">Nuestras Ofertas</div>
+    <div class="enlace" (click)="redirigirToInfoJob()" i18n="@@navbar.nuestrasOfertas.navDesktop">Nuestras Ofertas</div>
   </div>
   <selector-language/>
 
@@ -52,7 +52,7 @@
       {{item.titulo}}
     </div>
   }
-  <div   class="enlaceMobile" (click)="toogleShowNavBar(); redirigirToInfoJob()" i18n="@@navbar.nuestrasOfertas">
+  <div   class="enlaceMobile" (click)="toogleShowNavBar(); redirigirToInfoJob()" i18n="@@navbar.nuestrasOfertas.navMovile">
     Nuestras Ofertas
   </div>
   @for(item of internetMenuSecondary; track $index){

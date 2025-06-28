@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" datatype="plaintext" original="ng2.template">
+        <body>
+            <trans-unit id="navbar.solicitarDemo" datatype="html">
+                <source>Solicitar una demo</source>
+                <target>Request a demo</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/00
+                        shared/navbar/navbar.component.html
+                    </context>
+                    <context context-type="linenumber">25,26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="navbar.solicitarDemoMobile" datatype="html">
+                <source>Solicitar una demo</source>
+                <target>Requesta a demo</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/00
+                        shared/navbar/navbar.component.html
+                    </context>
+                    <context context-type="linenumber">56,58</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="navbar.nuestrasOfertas" datatype="html">
+                <source>Nuestras Ofertas</source>
+                <target>Join Our Team</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/00
+                        shared/navbar/navbar.component.html
+                    </context>
+                    <context context-type="linenumber">64,66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.titulo" datatype="html">
+                <source>Hablan de nosotros</source>
+                <target>About Us</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">1</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.texto" datatype="html">
+                <source>No nos gusta hablar de nosotros mismos, preferimos que nuestra gente y clientes hablen acerca de
+                    nosotros.
+                </source>
+                <target>We don't like talking about ourselves; we prefer our people and customers to speak about us.s.
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">2,3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.bidafarma.empresa" datatype="html">
+                <source>BIDAFARMA</source>
+                <target>BIDAFARMA</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">11,12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.bidafarma.cargo" datatype="html">
+                <source>Gerente de transformación Digital</source>
+                <target> Digital Transformation Manager</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">12,15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.bidafarma.texto" datatype="html">
+                <source>Trabajar con SADE es incorporar a tu empresa un equipo con visión de negocio y conocimiento
+                    tecnológicos, pero sobre todo con total implicación a la consecución de objetivos. El equipo de SADE
+                    te permite trabajar con total confianza y transparencia, ya que buscan colaboraciones y relaciones a
+                    largo plazo con sus clientes. El éxito del proyecto se superpone a posibles desviaciones o
+                    ampliaciones de requerimiento, para sustentar los cimientos de esa integración de sus equipos en las
+                    distintas unidades de negocio y en los equipo de proyecto de IT.
+                </source>
+                <target>Working with SADE means incorporating into your company a team with business vision and
+                    technological knowledge, but above all with total involvement in achieving objectives. The SADE team
+                    allows you to work with complete trust and transparency, as they seek collaborations and long-term
+                    relationships with their clients. The success of the project is superimposed on possible deviations
+                    or extensions of requirements, to support the foundations of this integration of its teams in the
+                    different business units and in the IT project teams.
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">17,22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.nationale.empresa" datatype="html">
+                <source>NATIONALE NEDERLANDEN</source>
+                <target>NATIONALE NEDERLANDEN</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">34,35</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.nationale.cargo" datatype="html">
+                <source>IT Manager - Head of API</source>
+                <target>IT Manager - Head of API</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">35,38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.nationale.texto" datatype="html">
+                <source>Desde Nationale-Nederlanden tenemos la suerte de contar con SADE como un partner de referencia,
+                    que lleva muchos años con nosotros compartiendo la aventura de transformar una compañía de Seguros,
+                    poniendo la tecnología en el centro para facilitar el diseño y la construcción de todos nuestros
+                    nuevos productos, con el único objetivo de hacer la vida de nuestros clientes más fácil. SADE
+                    encarna todos los valores que nos representan, demostrando calidad técnica , pero sobretodo humana.
+                    Desde mi departamento de API &amp; Backend Development, tenemos la suerte de contar con su calidad y
+                    confianza, desde la cual todos juntos estamos creciendo como equipo y como acelerador tecnológico.
+                </source>
+                <target>At Nationale-Nederlanden we are lucky to have SADE as a reference partner, which has been with
+                    us for many years sharing the adventure of transforming an Insurance company, putting technology at
+                    the center to facilitate the design and construction of all our new products, with the sole
+                    objective of making our customers' lives easier. SADE embodies all the values that represent us,
+                    demonstrating technical quality, but above all human quality. From my API & Backend Development
+                    department, we are lucky to have your quality and trust, from which we are all growing together as a
+                    team and as a technological accelerator.
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">40,46</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.soliss.empresa" datatype="html">
+                <source>SOLISS</source>
+                <target>SOLISS</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">58,59</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.soliss.cargo" datatype="html">
+                <source>Director de Transformación y Soporte Organizativo</source>
+                <target> Director of Transformation and Organizational Support</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">59,62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="hablannosotros.soliss.texto" datatype="html">
+                <source>SADE nos acompaña en nuestro Plan de Transformación desde su lanzamiento. Cuando decides contar
+                    con ellos, te das cuenta que va a ser una relación a largo plazo, ya que no sólo incorporas a un
+                    conjunto de profesionales que hacen bien su trabajo, sino que acercas una organización con personas
+                    comprometidas y cercanas que te ayudan a tomar la mejor decisión tecnológica dentro de tu
+                    arquitectura. Desde Soliss valoramos que cuando se incorpora un profesional de SADE, no sólo aporta
+                    experiencia y saber hacer, sino una actitud y valores que compartimos.
+                </source>
+                <target>SADE has accompanied us in our Transformation Plan since its launch. When you decide to have
+                    them, you realize that it will be a long-term relationship, since you not only incorporate a group
+                    of professionals who do their job well, but you bring an organization with committed and close
+                    people who help you make decisions. the best technological decision within your architecture. At
+                    Soliss we value that when a SADE professional joins, they not only bring experience and know-how,
+                    but also an attitude and values that we share.
+
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/hablannosotros/hablannosotros.html
+                    </context>
+                    <context context-type="linenumber">64,69</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="portada.home" datatype="html">
+                <source>DESCÚBRELO</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/components/portadahome/portadahome.html
+                    </context>
+                    <context context-type="linenumber">4,6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.homeTitle" datatype="html">
+                <source>House</source>
+                <target>House</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.conocenosTitle" datatype="html">
+                <source>Conócenos</source>
+                <target>About Us</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.talentoTitle" datatype="html">
+                <source>Talento</source>
+                <target>Talent</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.noticiasTitle" datatype="html">
+                <source>Noticias</source>
+                <target>News</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">45</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.contactanosTitle" datatype="html">
+                <source>Contáctanos</source>
+                <target>Contact Us</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">51</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.consultoriaTitle" datatype="html">
+                <source>Consultoría</source>
+                <target>Consultancy</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.iaGenerativaTitle" datatype="html">
+                <source>IA Generativa Privada</source>
+                <target>Private Gen IA</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.desarrolloTitle" datatype="html">
+                <source>Desarrollo y Outsourcing</source>
+                <target>Develovemnt and Outsourcing</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">75</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.tdiferencialesTitle" datatype="html">
+                <source>Tecnologías Diferenciales</source>
+                <target>Leading Edges Technology</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">84</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.digitalizacionTitle" datatype="html">
+                <source>Digitalización y Trabajo</source>
+                <target>Digitation and Word</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">93</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="route.demoTitle" datatype="html">
+                <source>Solicitar una demo</source>
+                <target>Request a demo</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
+                    <context context-type="linenumber">102</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="color-component.titulo" datatype="html">
+                <source>Servicios y Soluciones</source>
+                <source>Services and Solutions</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/internet/pages/home/home.html</context>
+                    <context context-type="linenumber">6,7</context>
+                </context-group>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

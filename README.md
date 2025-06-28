@@ -58,4 +58,12 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 ng build --configuration production --base-href /websade/
-npx angular-cli-ghpages --dir=dist/websade/browser        
+npx angular-cli-ghpages --dir=dist/websade/browser    
+
+## Internalización 
+
+ng extract-i18n --output-path src/locale
+
+Para fusionar
+ng extract-i18n --output-path src/locale/messages.en.xlf --merge-target-locale en
+        

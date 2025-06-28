@@ -1,0 +1,9 @@
+<div data-tooltip-target="tooltip-light"  data-tooltip-style="light" class="idioma flex justify-end" data-tooltip-trigger="click" >
+  <img [src]="currentLang() === 'es' ? 'spa.svg' : 'eng.svg'" alt="idioma" width="30"/>
+</div>
+<div id="tooltip-light" role="tooltip"
+     (click)="switchLanguage(langToSwitchTo())"
+     class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-white rounded-lg shadow-xs opacity-0 tooltip ">
+  <img [src]="flagToSwitchTo()" alt="idioma" width="30"/>
+  <!--    <div class="tooltip-arrow" data-popper-arrow></div>-->
+</div>

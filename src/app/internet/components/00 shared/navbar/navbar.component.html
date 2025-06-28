@@ -22,7 +22,7 @@
     <img src="LogoSADE.png" alt="logo" height="291" width="667">
   </div>
   <div class="principal hidden xl:flex w-full justify-end">
-    <div class="demo" [routerLink]="'/demo'">Solicitar una demo</div>
+    <div class="demo" [routerLink]="'/demo'" i18n="@@navbar.solicitarDemo">Solicitar una demo</div>
   @for(item of internetMenu; track $index){
     <div [routerLink]="item.route"  [routerLinkActive]="'active marcado'" class="enlace">
       {{item.titulo}}
@@ -30,15 +30,7 @@
   }
     <div class="enlace" (click)="redirigirToInfoJob()">Nuestras Ofertas</div>
   </div>
-  <div data-tooltip-target="tooltip-light"  data-tooltip-style="light" class="idioma flex justify-end" data-tooltip-trigger="click" >
-    <img [src]="languageSelect()" alt="idioma" width="30"/>
-  </div>
-  <div id="tooltip-light" role="tooltip"
-       (click)="changeSelect()"
-       class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-white rounded-lg shadow-xs opacity-0 tooltip ">
-    <img [src]="languageOther()" alt="idioma" width="30"/>
-<!--    <div class="tooltip-arrow" data-popper-arrow></div>-->
-  </div>
+  <selector-language/>
 
 </nav>
 <nav class="sticky xl:static" style="top: 100px; background: white; z-index: 100">
@@ -51,8 +43,8 @@
     }
   </div>
 </nav>
-<menu class="xl:hidden fixed top-[100px] z-10 bg-[#FFFFFFDE] h-[calc(100vh_-_100px)] w-full p-12" [class]="showNavBarComputed()">
-  <div [routerLink]="'/demo'"   class="enlaceMobile demoMobile" (click)="toogleShowNavBar()">
+<menu class="xl:hidden fixed top-[100px] z-11 bg-[#FFFFFFF4] h-[calc(100vh_-_100px)] w-full p-12" [class]="showNavBarComputed()">
+  <div [routerLink]="'/demo'"   class="enlaceMobile demoMobile" (click)="toogleShowNavBar()" i18n="@@navbar.solicitarDemoMobile">
     Solicitar una demo
   </div>
   @for(item of internetMenu; track $index){
@@ -60,7 +52,7 @@
       {{item.titulo}}
     </div>
   }
-  <div   class="enlaceMobile" (click)="toogleShowNavBar(); redirigirToInfoJob()">
+  <div   class="enlaceMobile" (click)="toogleShowNavBar(); redirigirToInfoJob()" i18n="@@navbar.nuestrasOfertas">
     Nuestras Ofertas
   </div>
   @for(item of internetMenuSecondary; track $index){

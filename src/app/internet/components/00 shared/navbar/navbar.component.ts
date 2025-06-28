@@ -1,6 +1,7 @@
 import {Component, computed, signal} from '@angular/core';
 import {internetRoute} from '../../../internet.routes';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {SelectorLanguage} from '../../selector-language/selector-language';
 
 interface MenuItem {
   titulo: string,
@@ -14,7 +15,8 @@ const internetRoutes = internetRoute[0].children ?? [];
   selector: 'app-nav-bar',
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    SelectorLanguage
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
@@ -22,17 +24,7 @@ const internetRoutes = internetRoute[0].children ?? [];
 })
 export class NavbarComponent {
 
-  languageSelect = signal<string>('spa.svg')
-  languageOther = signal('eng.svg')
-  changeSelect(){
-    if(this.languageSelect() === 'spa.svg'){
-      this.languageSelect.set('eng.svg')
-      this.languageOther.set('spa.svg')
-    }else{
-      this.languageSelect.set('spa.svg')
-      this.languageOther.set('eng.svg')
-    }
-  }
+
 
   showNavBar = signal(false);
   showNavBarComputed = computed(()=>{

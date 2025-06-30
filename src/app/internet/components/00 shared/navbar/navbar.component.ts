@@ -40,7 +40,6 @@ export class NavbarComponent {
   }
 
   internetMenu: MenuItem[] = internetRoutes
-    .filter(item => item.path !== 'home' && item.path !== '**')
     .filter(item => item.data && item.data['category'] === 'principal')
     .map((item) => {
       return {
@@ -51,7 +50,6 @@ export class NavbarComponent {
     })
 
   internetMenuSecondary: MenuItem[] = internetRoutes
-    .filter(item => item.path !== 'home' && item.path !== '**')
     .filter(item => item.data && item.data['category'] === 'secondary')
     .map((item) => {
       const colorFromData = item.data ? item.data['color'] : undefined;

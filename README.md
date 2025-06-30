@@ -67,4 +67,8 @@ ng extract-i18n --output-path src/locale
 
 Para fusionar
 ng extract-i18n --output-path src/locale/messages.en.xlf --merge-target-locale en
+
+## Desplegar con serve
+
+ng build --localize --configuration=production
         

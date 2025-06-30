@@ -2,7 +2,7 @@
 import { Routes } from '@angular/router';
 import {Home} from './pages/home/home';
 import {Conocenos} from './pages/conocenos/conocenos';
-import {Talento} from './pages/talendo/talento';
+import {Talento} from './pages/talento/talento';
 import {Digitalizacion} from './pages/digitalizacion/digitalizacion';
 import {Tdiferenciales} from './pages/tdiferenciales/tdiferenciales';
 import {Desarrollo} from './pages/desarrollo/desarrollo';

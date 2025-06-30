@@ -1,19 +1,22 @@
-<app-titulo-section titulo="Contáctanos">
+<app-titulo-section titulo="Contáctanos" i18n="@@contactanos.formulario.titulo">
 
 </app-titulo-section>
 <form class="grid grid-cols-2 p-12 gap-4">
   <input
     type="text" #asunto id="asunto"
     placeholder="Asunto"
+    i18n-placeholder="@@contactanos.formulario.asunto"
     class="col-span-2"
   />
   <input
     type="text" #nombre id="nombre"
     placeholder="Nombre"
+    i18n-placeholder="@@contactanos.formulario.nombre"
     class="col-span-2 md:col-span-1"
   />
   <input type="text" #apellidos id="apellidos"
       placeholder="Apellidos"
+         i18n-placeholder="@@contactanos.formulario.apellidos"
          class="col-span-2 md:col-span-1"
   />
   <input type="email" #email id="email"
@@ -23,18 +26,22 @@
   <input type="tel" #telefono id="telefono"
          class="col-span-2 md:col-span-1"
          placeholder="Teléfono de contacto"
+         i18n-placeholder="@@contactanos.formulario.telefono"
   />
   <textarea  #mensaje id="mensaje"
              placeholder="Mensaje"
+             i18n-placeholder="@@contactanos.formulario.mensaje"
     class="col-span-2"
   ></textarea>
   <div class="col-span-2 flex gap-4 "
   >
-    <input type="text" name="adjunto" id="adjunto" disabled placeholder="Archivo adjunto"
+    <input type="text" name="adjunto" id="adjunto" disabled
+           placeholder="Archivo adjunto"
+           i18n-placeholder="@@contactanos.formulario.adjunto"
       class="w-full"
     >
     <div class="flex justify-center items-center
-     bg-blue-500 text-white px-12 rounded-lg">
+     bg-blue-500 text-white px-12 rounded-lg" i18n="@@contactanos.formulario.seleccionar">
       Seleccionar
     </div>
   </div>
@@ -44,7 +51,7 @@
       <input type="radio" class="" name="" id="politica">
     </label>
 
-    <span>He leído y acepto la <strong>política de privacidad</strong> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</span>
+    <span i18n="@@contactanos.formulario.politica">He leído y acepto la <strong>política de privacidad</strong> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</span>
   </div>
   <div class="col-span-2 flex gap-4 items-center">
     <label class="formcontrol">
@@ -52,12 +59,14 @@
       <input type="radio" class="" name="" id="autorizacion">
     </label>
 
-    <span>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</span>
+    <span i18n="@@contactanos.formulario.autorizacion">Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</span>
   </div>
 
   <div class="col-span-2 flex justify-center">
 
-    <div class="px-8 py-4 rounded-lg w-[200px] bg-[dodgerblue] text-white hover:text-[dodgerblue] font-white cursor-pointer text-center font-bold
-          hover:bg-white  outline-solid outline-dodgerblue hover:outline-2 transition-all duration-500 ease-in-out">ENVIAR</div>
+    <div class="px-8 py-4 rounded-lg w-[200px] bg-[dodgerblue] text-white hover:text-[dodgerblue] font-white
+      cursor-pointer text-center font-bold
+          hover:bg-white  outline-solid outline-dodgerblue hover:outline-2 transition-all duration-500 ease-in-out"
+      i18n="@@contactanos.formulario.enviar">ENVIAR</div>
   </div>
 </form>

@@ -2,6 +2,48 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="es" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="footer.contactanos" datatype="html">
+        <source> Contactanos </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.aviso" datatype="html">
+        <source>Aviso Legal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.privacidad" datatype="html">
+        <source>Política de Privacidad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.cookies" datatype="html">
+        <source>Política de cookies.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.candidatos" datatype="html">
+        <source>Política de privacidad para candidatos.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.canal" datatype="html">
+        <source>Canal Ético</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/00 shared/footer/footer.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="navbar.solicitarDemo" datatype="html">
         <source>Solicitar una demo</source>
         <context-group purpose="location">
@@ -30,6 +72,13 @@
           <context context-type="linenumber">56,58</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="conocenos.alianzas.titulo" datatype="html">
+        <source>Nuestras alianzas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/alianzas/alianzas.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="talento.buscamos" datatype="html">
         <source>BUSCAMOS TU</source>
         <context-group purpose="location">
@@ -56,6 +105,349 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/components/buscamotalento/buscamostalento.html</context>
           <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.asunto" datatype="html">
+        <source>Asunto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.nombre" datatype="html">
+        <source>Nombre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.apellidos" datatype="html">
+        <source>Apellidos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.telefono" datatype="html">
+        <source>Teléfono de contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.mensaje" datatype="html">
+        <source>Mensaje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.adjunto" datatype="html">
+        <source>Archivo adjunto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.seleccionar" datatype="html">
+        <source> Seleccionar </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">45,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.politica" datatype="html">
+        <source>He leído y acepto la <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>política de privacidad<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.autorizacion" datatype="html">
+        <source>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.formulario.enviar" datatype="html">
+        <source>ENVIAR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
+          <context context-type="linenumber">70,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.titulo" datatype="html">
+        <source>Envíanos tu currículum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.asunto" datatype="html">
+        <source>Asunto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.nombre" datatype="html">
+        <source>Nombre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.apellidos" datatype="html">
+        <source>Apellidos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.email" datatype="html">
+        <source>Correo electrónico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.telefono" datatype="html">
+        <source>Teléfono de contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.mensaje" datatype="html">
+        <source>Mensaje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.attachFile" datatype="html">
+        <source>Archivo adjunto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.seleccionar" datatype="html">
+        <source> Seleccionar </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">45,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.politica" datatype="html">
+        <source>He leído y acepto la <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>política de privacidad<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.autorizacion" datatype="html">
+        <source>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCV.enviar" datatype="html">
+        <source>ENVIAR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianos-cv/envianos-cv.html</context>
+          <context context-type="linenumber">68,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCurriculumBanner.unete" datatype="html">
+        <source>UNETE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianosCurriculumBanner/envianosCurriculumBanner.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCurriculumBanner.equipo" datatype="html">
+        <source>A NUESTRO EQUIPO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianosCurriculumBanner/envianosCurriculumBanner.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.envianosCurriculumBanner.envianosTuCV" datatype="html">
+        <source>ENVIANOS TU CV</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/envianosCurriculumBanner/envianosCurriculumBanner.html</context>
+          <context context-type="linenumber">15,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.titulo" datatype="html">
+        <source>Equipo SADE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.text" datatype="html">
+        <source>Os presentamos a nuestro equipo.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.direccion" datatype="html">
+        <source>Dirección General</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.financiero" datatype="html">
+        <source>Financiero</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.estrategia" datatype="html">
+        <source>Estrategia y Desarrollo de Negocio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.tecnologias" datatype="html">
+        <source>Tecnologías y Operaciones</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.talento" datatype="html">
+        <source>Talento</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.equiposade.gestion" datatype="html">
+        <source>Gestión de Cuentas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/equiposade/equiposade.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.titulo" datatype="html">
+        <source>Filosofía SADE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.secondary" datatype="html">
+        <source>Conoce nuestros principios, misión y visión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.tab1" datatype="html">
+        <source>Nuestros valores</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.tab2" datatype="html">
+        <source>Nuestra misión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.tab3" datatype="html">
+        <source>Nuestra visión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.main" datatype="html">
+        <source>Innovar con orientación al cliente de forma ágil en nuevos productos y servicios, a través de la tecnología, aprovechando las oportunidades y resolviendo las necesidades de las empresas, siempre con honestidad y cercanía.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.titulo1" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>SOLUCIONES<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> INNOVADORAS </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.texto1" datatype="html">
+        <source> Sin duda, los orígenes y el éxito de nuestra compañía no se entenderían sin una cultura basada en la innovación tecnológica. Gracias a entender que la tecnología y la investigación, en sí mismas, no tienen valor si no es con el objetivo de resolver una serie de necesidades tanto a nivel de negocio como social, hemos logrado alcanzar dicho éxito. Por eso siempre entendemos la innovación cerca del cliente o del usuario con el objetivo de que permita hacer las cosas mejor. Esta filosofía nos ha permitido, de la mano de nuestros clientes, llevar a mercado múltiples productos tecnológicos en los principales sectores donde operamos, y extender esta filosofía de trabajo a cada proyecto que hoy acometemos. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">21,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.titulo2" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>AGILIDAD <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Y BÚSQUEDA DE BENEFICIO </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.texto2" datatype="html">
+        <source> Somos muy rápidos tomando decisiones, resolviendo necesidades de nuestros clientes, poniendo en marcha nuevos productos, reinventándonos… En SADE entendemos que cada día debe ser una hoja en blanco y los cambios o problemas como una oportunidad de mejora. Esta visión, junto a prestar atención a las tendencias tecnológicas y del sector, asumir riesgos y mantener una filosofía de continuo aprendizaje, nos ha hecho evolucionar a lo largo de la historia de la compañía. Creemos firmemente que esta cultura empresarial tiene su eco en cómo nos relacionamos con nuestros clientes. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">42,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.titulo3" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>DEDICACIÓN <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Y COMPROMISO </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.texto3" datatype="html">
+        <source> Para SADE nuestra dedicación y el compromiso es dar el máximo de nuestras capacidades con el objetivo de sacar adelante cada iniciativa, actividad o proyecto. Entre nuestros trabajadores hemos establecido un vínculo que relaciona lo laboral y lo emocional y el resultado es un clima y entorno basado en el compromiso y la motivación por la consecución de unos objetivos comunes. Esta visión nos hace afrontar cada proyecto en el que trabajamos como una implicación humana y profesional diferencial. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">62,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.titulo4" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>ESPECIALIZACIÓN<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> TECNÓLOGICA </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">78,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.valores.texto4" datatype="html">
+        <source> Nuestra compañía está compuesta por múltiples áreas. Cada una de estas áreas realiza su actividad alrededor de una tecnología, mercado o solución propia o de terceros, aportando un valor diferencial en el mercado. Aportamos valor añadido frente a consultoras globales. Pero SADE en su conjunto representa una empresa solvente, con capacidad de abordar soluciones globales y de realizar grandes proyectos. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">81,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.mision.main" datatype="html">
+        <source> Construir el mejor equipo de profesionales con ilusión de transformar y mejorar las empresas y la sociedad a través de la tecnología desde la especialización en las últimas soluciones y en los diferentes retos del mercado. Hacerlo siendo una gran familia, formada por buenas personas que disfrutan convirtiéndose en un referente global con vocación de crecimiento desde su propia tierra. Organizaciones públicas y privadas trabajan con nosotros porque somos expertos a la hora de resolver sus necesidades y retos de tecnología. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">94,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.filosofia.vision.main" datatype="html">
+        <source> Convertirnos en la compañía de tecnología más atractiva para los profesionales que quieran transformar la sociedad y las empresas y en el socio tecnológico para las compañías que requieren incorporar tecnología para mejorar y optimizar sus negocios. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/filosofia/filosofia.html</context>
+          <context context-type="linenumber">102,111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="hablannosotros.titulo" datatype="html">
@@ -135,6 +527,56 @@
           <context context-type="linenumber">64,69</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="contactanos.mapacontacto.telefonos" datatype="html">
+        <source>Teléfonos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/mapacontacto/mapacontacto.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.mapacontacto.oficina" datatype="html">
+        <source>Oficina Central</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/mapacontacto/mapacontacto.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.mapacontacto.correo" datatype="html">
+        <source>Correo electrónico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/mapacontacto/mapacontacto.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.nuestraActualidad.titulo" datatype="html">
+        <source>Nuestra actualidad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/nuestra-actualidad/nuestra-actualidad.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.nuestraActualidad.texto" datatype="html">
+        <source> Vea algunas de nuestras publicaciones recientes en el blog y manténgase actualizado sobre Grupo SADE.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/nuestra-actualidad/nuestra-actualidad.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="noticias.titulo" datatype="html">
+        <source>Nuestras Noticias</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/nuestras-noticias/nuestras-noticias.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="noticias.allyears" datatype="html">
+        <source>Todos los años</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/nuestras-noticias/nuestras-noticias.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="home.numeros.titulo" datatype="html">
         <source>Los números importan</source>
         <context-group purpose="location">
@@ -177,11 +619,165 @@
           <context context-type="linenumber">21,24</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="conocenos.origenes.titulo" datatype="html">
+        <source>Orígenes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/origenes/origenes.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.origenes.texto1" datatype="html">
+        <source>SADE fue fundada en el año 2003 en Madrid, con el propósito de proporcionar el máximo valor a sus clientes a través del uso más apropiado y eficiente de las mejores Tecnologías de la Información. Nuestros más de 100 empleados ayudan a nuestros clientes a alcanzar sus objetivos de negocios a través del más innovador uso de la Tecnología. El principal elemento diferenciador de SADE es de lado humano de la Tecnología, que mima al cliente y los detalles más pequeños, pero no olvida que son sus trabajadores.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/origenes/origenes.html</context>
+          <context context-type="linenumber">2,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.origenes.texto2" datatype="html">
+        <source>SADE Consultoría Técnica, S.L. es una empresa española de capital privado, especializada en la provisión de los mejores servicios profesionales de IT, así como el desarrollo de soluciones específicas de negocio, impulsándo la transformación digital en las empresas. Durante 15 años hemos trasladado nuestra cultura de excelencia a más de 70 clientes, en más de 200 proyectos, y nuestro actual equipo de más de 100 ingenieros y consultores continúa con esta senda, aplicando la innovación tecnológica a los negocios de nuestros clientes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/origenes/origenes.html</context>
+          <context context-type="linenumber">9,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.origenes.texto3" datatype="html">
+        <source> &quot;Nuestra estrategia e inquietudes hacen que SADE se adelante a sus competidores y esté a la vanguardia tecnológica, aplicando esta cultura de innovación y formación a sus profesionales para afrontar los retos tecnológicos del mañana&quot;. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/origenes/origenes.html</context>
+          <context context-type="linenumber">20,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.planrecuperacion" datatype="html">
+        <source>SADE CONSULTORIA TECNICA SL ha instalado en la dirección CL MONTEVERDE 67, 28042 MADRID (MADRID) paneles fotovoltaicos con una potencia total instalada de 6,37 kWp, financiadas por la Unión Europea con cargo al Fondo NextGenerationEU, en el marco del Plan de Recuperación, Transformación y Resiliencia, en colaboración con el ministerio para la Transición Ecológica y el Reto demográfico, a través del IDAE y a la Consejería de Desarrollo Sostenible, a través de la Fundación de la energía de la Comunidad de Madrid.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/planrecuperacion/planrecuperacion.html</context>
+          <context context-type="linenumber">6,11</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="portada.home" datatype="html">
         <source>DESCÚBRELO</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/components/portadahome/portadahome.html</context>
           <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamos.titulo" datatype="html">
+        <source>¿Qué buscamos?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamos/quebuscamos.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamos.p1" datatype="html">
+        <source>El talento es una mezcla de conocimientos e inteligencia, a la que se suman la aptitud y la actitud de cada ser humano.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamos/quebuscamos.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamos.p2" datatype="html">
+        <source>En SADE sabemos lo importante que es detectarlo.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamos/quebuscamos.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamos.p3" datatype="html">
+        <source>Nuestro empeño e ilusión es saber “cuidar” y reconocer el talento de todas y cada una de las personas que hacen cada día que SADE sea posible</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamos/quebuscamos.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.title1" datatype="html">
+        <source>Proyectos <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> de primer nivel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.text1" datatype="html">
+        <source>Trabajamos en proyectos de primer nivel. Nuestros clientes confían en nosotros como socios tecnológicos. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">8,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.title2" datatype="html">
+        <source>Plan de carrera personalizado.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.text2" datatype="html">
+        <source>Realizamos evaluaciones continuas donde evaluamos el desempeño individual, trabajando para fomentar el crecimiento y el desarrollo de las personas. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.title3" datatype="html">
+        <source>Las tecnologías más punteras</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.text3" datatype="html">
+        <source>Somos referentes tecnológicos en programación y tecnologías como desarrolladores de software. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">26,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.title4" datatype="html">
+        <source>Profesionales<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> de referencia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.text4" datatype="html">
+        <source>Fomentamos la creación de comunidades tecnológicas a todos los niveles para facilitarte el proceso de crecimiento profesional gracias a nuestros referentes. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.title5" datatype="html">
+        <source>Cultura <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>de empresa única</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.quebuscamoscard.text5" datatype="html">
+        <source>Valoramos a las personas honestas, creativas, con ideas propias, a las que les gusten los retos, las tecnologías y tengan valores para desarrollarse en una cultura de igualdad. Estos valores son nuestros pilares como empresa. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/quebuscamoscard/quebuscamoscard.html</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.tecnologia.titulo" datatype="html">
+        <source>Tecnología como motor para cualquier organización</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/tecnologia/tecnologia.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.tecnologia.p1" datatype="html">
+        <source>Con una visión muy práctica, tenemos experiencia en entender la problemática de una organización y ayudar a definir una estrategia en TIC acorde con sus necesidades y enfocada a resultados.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/tecnologia/tecnologia.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.tecnologia.parrafo2" datatype="html">
+        <source>En la era digital, dirigimos nuestro expertise hacia la consultoría estratégica y nuestro conocimiento sectorial hacia la creación de procesos de cambio y hacia la identificación de palancas críticas de transformación empresarial.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/components/tecnologia/tecnologia.html</context>
+          <context context-type="linenumber">7,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.homeTitle" datatype="html">
@@ -261,11 +857,278 @@
           <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="color-component.titulo" datatype="html">
+      <trans-unit id="conocenos.portada.mainTitle" datatype="html">
+        <source>Somos tu partner Tecnológico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/conocenos/conocenos.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="conocenos.portada.secondaryTitle" datatype="html">
+        <source>Transformamos servicios en valor, convertimos expectativas en resultados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/conocenos/conocenos.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.mainTitle" datatype="html">
+        <source>CONSULTORÍA Y ESTRATEGÍA DE NEGOCIO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.secondaryTitle" datatype="html">
+        <source>Pensando en cómo la tecnología puede transformar el negocio de nuestros clientes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.titulo" datatype="html">
+        <source>Ofrecemos soluciones a la problemática de nuestros cliente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card1.titulo" datatype="html">
+        <source> Mejorar la eficiencia deMáxima dedicación</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card1.texto" datatype="html">
+        <source> Ayudamos a la definición y consecución de los objetivos de nuestros clientes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card2.titulo" datatype="html">
+        <source> how tecnológico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card2.texto" datatype="html">
+        <source> Somos líderes en la resolución de los retos tecnológicos actuales</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card3.titulo" datatype="html">
+        <source> Enfocados en los objetivos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.color.card3.texto" datatype="html">
+        <source> Conectamos los objetivos de negocio con los nuevos retos de un mercado.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo1" datatype="html">
+        <source>Consultoria Cloud</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.text1" datatype="html">
+        <source>
+            &lt;p class=&apos;mb-4&apos;&gt;En SADE te ayudamos a elegir la tecnología y la tipología de cloud más adecuada&lt;/p&gt;
+            &lt;ul class=&apos;list-disc&apos;&gt;
+                &lt;li&gt;&lt;strong&gt; Selección del modelo Cloud: &lt;/strong&gt;Elige el modelo que mejor se adapta (SaaS, IaaS, PaaS) y paga por lo que necesites. Flexible, seguro, adaptable y sin límites.&lt;/li&gt;
+                &lt;li&gt; &lt;strong&gt;Servicios de migración: &lt;/strong&gt;Construimos una infraestructura Cloud segura y migramos las cargas de trabajo de forma eficaz.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt; Servicios Cloud:&lt;/strong&gt; Nuestros expertos gestionan todos los procesos necesarios para operar en el Cloud.&lt;/li&gt;
+             &lt;/ul&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">43,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo2" datatype="html">
+        <source>Consultoría Tecnológica</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.text2" datatype="html">
+        <source>
+            &lt;p class=&apos;mb-4&apos;&gt;&lt;strong&gt;Realizamos un Diagnóstico 360º&lt;/strong&gt;, realizamos una assessment IT en profundidad de tu empresa para tener una fotografía completa del escenario de partida.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt; Realizamos un Plan de Acción&lt;/strong&gt;, te presentamos un completo plan de acción con las medidas a tomar para optimizar y mejorar las áreas IT analizadas.&lt;/p&gt;
+            &lt;p&gt; &lt;strong&gt;Implantación del Plan de Acción&lt;/strong&gt;, podemos acompañarte y ayudarte a realizar los cambios propuestos. Somos la mejor garantía del éxito de la implantación.&lt;/p&gt;
+               &lt;p&gt;&lt;strong&gt; Evaluación y Resultados, te proporcionamos un estudio final comparativo, entre el estado inicial y el estado final de tu empresa para evaluar los resultados.&lt;/p&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo3" datatype="html">
+        <source>QA Services &amp; Testing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.texto3" datatype="html">
+        <source>  &lt;p&gt;Ayudamos a las empresas a establecer un proceso estandarizado de Quality Assurance en sus activos digitales más representativos con el claro objetivo de implantar una metodología de calidad común y alcanzar el grado de madurez deseado.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;Líneas estratégicas básicas&lt;/strong&gt;, que deben guiar el desarrollo de una práctica futura de QA.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;Marco metodológico&lt;/strong&gt;, que muestre los componentes elementales de una metodología de QA y sirva como referencia dentro del SDLC.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;La función del equipo de QA&lt;/strong&gt;, con una definición de roles y responsabilidades, así como su estructuración y capacitación.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;Herramientas tecnológicas&lt;/strong&gt; que soporten la actividad de QA &amp;amp; Testing&lt;/p&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo4" datatype="html">
+        <source>Automatización de procesos de negocio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.texto4" datatype="html">
+        <source>
+        &lt;p&gt;Acompañamos a las organizaciones en todo el proceso de transformación digital:&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;En el ámbito estratégico&lt;/strong&gt;: Descubrimiento y análisis automático de procesos. Identificación de cómo se está operando en la organización, cuellos de botella, ineficiencias, etc.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;En el ámbito táctico&lt;/strong&gt;: La implantación de un CoE (Centro de Excelencia) u oficina de automatizaciones.&lt;/p&gt;
+        &lt;p&gt;• &lt;strong&gt;En el ámbito operativo&lt;/strong&gt;: La implantación de las automatizaciones utilizando el paradigma RPA, las nuevas aplicaciones CBA, Chatbots inteligentes y el uso de capacidades de inteligencia artificial, como Document Understanding, FAQs, Lenguaje natural, etc.&lt;/p&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">78,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo5" datatype="html">
+        <source>Movilidad y aplicaciones multiplataforma</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.texto5" datatype="html">
+        <source>
+            &lt;p class=&apos;mb-4&apos;&gt;&lt;strong&gt;Abordamos el proceso completo, desde la conceptualización y desarrollo de la aplicación hasta su implantación y mantenimiento, así como el asesoramiento para nuevas oportunidades de crecimiento.&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;Ofrecemos soluciones a medida para todo tipo de plataformas: Android, iOS, aplicaciones híbridas, desarrollo multiplataforma, aplicaciones web, ... y creamos equipos dedicados para nuestros clientes a través de nuestros Agile Centers.&lt;/p&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.titulo6" datatype="html">
+        <source>Servicios Gestionados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="consultoria.cardDuo.texto6" datatype="html">
+        <source>
+            &lt;p class=&apos;mb-4&apos;&gt;El mantenimiento de las aplicaciones y sistemas permite reducir las incidencias en el servicio, pero, además, es clave para que las soluciones evolucionen de manera rápida y eficaz ante los nuevos retos a los que se enfrenta el negocio.&lt;/p&gt;
+            &lt;p&gt;La especialización, las técnicas de control y la alta eficiencia que se requieren en estas tareas no siempre están a disposición de una empresa. Por ello, &lt;strong&gt;los servicios gestionados cubren esta necesidad de administración, monitorización y soporte de TI y liberan a las organizaciones de estas tareas.&lt;/strong&gt;&lt;/p&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
+          <context context-type="linenumber">98,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.portada.mainTitle" datatype="html">
+        <source>Contacta con Nosotros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/contactanos/contactanos.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactanos.portada.secondaryTitle" datatype="html">
+        <source>Preguntanos lo que quieras</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/contactanos/contactanos.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.servicios&amp;soluciones.titulo" datatype="html">
         <source>Servicios y Soluciones</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/pages/home/home.html</context>
           <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.consultoria.titulo" datatype="html">
+        <source>Consultoría</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.consultoria.texto" datatype="html">
+        <source>Pensando en cómo la tecnología puede transformar el negocio de nuestros clientes. Reducimos costes optimizamos procesos en tu compañía</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.desarrollo.titulo" datatype="html">
+        <source>Desarrollo y Outsourcing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.desarrollo.texto" datatype="html">
+        <source>Aportamos valor a nuestros clientes con nuestra experiencia y nuestro saber hacer.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.soporte.titulo" datatype="html">
+        <source>Soporte y Mantenimiento</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.soporte.texto" datatype="html">
+        <source>Garantizamos el funcionamiento óptimo y la seguridad de tus aplicaciones con nuestro soporte continuo.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.digitalizacion.titulo" datatype="html">
+        <source>Digitaliación y trabajo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.color.digitalizacion.texto" datatype="html">
+        <source>Más que un ahorro de costes para la organización, hablamos de ahorro de tiempo, menor riesgo y mayor estabilidad.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/home/home.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.portada.mainTitle" datatype="html">
+        <source>Talento</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/talento/talento.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="talento.portada.secondaryTitle" datatype="html">
+        <source>Un ambiente laboral flexible y colaborativo, rodeado de los mejores compañeros y con formación continua.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/internet/pages/talento/talento.html</context>
+          <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
     </body>

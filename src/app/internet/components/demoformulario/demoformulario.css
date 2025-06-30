@@ -1,10 +1,7 @@
 :host * {
   box-sizing: border-box;
 }
-input, textarea, select{
-  border-radius: 5px;
-  border: 1px solid #ced4da;
-}
+
 input[type="radio"]{
   -webkit-appearance: none;
   appearance: none;
@@ -41,10 +38,4 @@ input[type="radio"]:checked::before {
 
 
 
-input:focus, textarea:focus{
-  background-color: #fff;
-  border-color: #80bdff;
-  box-shadow: 0 0 0 .2rem rgba(0,123,255,0.25);
-  color: #495057;
-  outline: 0;
-}
+

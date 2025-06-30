@@ -28,23 +28,23 @@ export class Home {
 
   serviciosYsolucionesCards: CardColor[] = [
     {
-      titulo: 'Consultoria',
-      texto: 'Pensando en cómo la tecnología puede transformar el negocio de nuestros clientes. Reducimos costes optimizamos procesos en tu compañía',
-      imagen: 'Consultoring.png' // Ejemplo de clase de Font Awesome
+      titulo: $localize`:@@home.color.consultoria.titulo:Consultoría`,
+      texto: $localize`:@@home.color.consultoria.texto:Pensando en cómo la tecnología puede transformar el negocio de nuestros clientes. Reducimos costes optimizamos procesos en tu compañía`,
+      imagen: 'Consultoring.png'
     },
     {
-      titulo: 'Desarrollo y Outsourcing',
-      texto: 'Aportamos valor a nuestros clientes con nuestra experiencia y nuestro saber hacer.',
+      titulo: $localize`:@@home.color.desarrollo.titulo:Desarrollo y Outsourcing`,
+      texto: $localize`:@@home.color.desarrollo.texto:Aportamos valor a nuestros clientes con nuestra experiencia y nuestro saber hacer.`,
       imagen: 'outsourcing.png'
     },
     {
-      titulo: 'Soporte y Mantenimiento',
-      texto: 'Garantizamos el funcionamiento óptimo y la seguridad de tus aplicaciones con nuestro soporte continuo.',
+      titulo: $localize`:@@home.color.soporte.titulo:Soporte y Mantenimiento`,
+      texto: $localize`:@@home.color.soporte.texto:Garantizamos el funcionamiento óptimo y la seguridad de tus aplicaciones con nuestro soporte continuo.`,
       imagen: 'Specialization.png'
     },
     {
-      titulo:'Digitaliación y trabajo',
-      texto:'Más que un ahorro de costes para la organización, hablamos de ahorro de tiempo, menor riesgo y mayor estabilidad.',
+      titulo: $localize`:@@home.color.digitalizacion.titulo:Digitaliación y trabajo`,
+      texto: $localize`:@@home.color.digitalizacion.texto:Más que un ahorro de costes para la organización, hablamos de ahorro de tiempo, menor riesgo y mayor estabilidad.`,
       imagen: 'transformtiondigital.png',
     }
   ];

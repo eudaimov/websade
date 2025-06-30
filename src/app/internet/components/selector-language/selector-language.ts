@@ -1,11 +1,14 @@
 import { Component, computed } from '@angular/core';
+import {UpperCasePipe} from '@angular/common';
 
 
 @Component({
   selector: 'selector-language',
   // Si estás usando Standalone Components, 'imports' es correcto.
   // Si no, asegúrate de que este componente esté declarado en un NgModule.
-  imports: [],
+  imports: [
+    UpperCasePipe
+  ],
   templateUrl: './selector-language.html',
   styleUrl: './selector-language.css'
 })
@@ -16,7 +19,10 @@ export class SelectorLanguage {
     const fullBrowserPath = window.location.pathname;
     const pathSegments = fullBrowserPath.split('/');
     const language:string = pathSegments[2];
-    console.info(language)
+    console.info("Hola lenguaje")
+    if(language==='' || language===undefined || language===null){
+      return 'en'
+    }
 
     return language
   }) // Inicializamos con 'es'
@@ -47,10 +53,6 @@ export class SelectorLanguage {
       window.location.href= '/websade/en'
     }
 
-    // const currentAppPath = this.router.url;
-    // const newUrl = `${window.location.origin}/${targetLang}${currentAppPath}`;
-    //
-    // window.location.href = newUrl;
   }
 
 

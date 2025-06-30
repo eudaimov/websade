@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import {Buscamostalento} from '../../components/buscamotalento/buscamostalento';
+import {NuestrasNoticias} from '../../components/nuestras-noticias/nuestras-noticias';
 
 @Component({
   selector: 'app-noticias-page',
   imports: [
-    Buscamostalento
+    Buscamostalento,
+    NuestrasNoticias
   ],
   templateUrl: './noticias.html',
   styleUrl: './noticias.css'

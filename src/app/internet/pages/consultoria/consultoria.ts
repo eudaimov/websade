@@ -57,7 +57,7 @@ export class Consultoria {
             <p class='mb-4'><strong>Realizamos un Diagnóstico 360º</strong>, realizamos una assessment IT en profundidad de tu empresa para tener una fotografía completa del escenario de partida.</p>
             <p><strong> Realizamos un Plan de Acción</strong>, te presentamos un completo plan de acción con las medidas a tomar para optimizar y mejorar las áreas IT analizadas.</p>
             <p> <strong>Implantación del Plan de Acción</strong>, podemos acompañarte y ayudarte a realizar los cambios propuestos. Somos la mejor garantía del éxito de la implantación.</p>
-               <p><strong> Evaluación y Resultados, te proporcionamos un estudio final comparativo, entre el estado inicial y el estado final de tu empresa para evaluar los resultados.</p>`,
+               <p><strong> Evaluación y Resultados</strong>, te proporcionamos un estudio final comparativo, entre el estado inicial y el estado final de tu empresa para evaluar los resultados.</p>`,
       "image": "consultoriaTecnologica.jpg",
       "par": true,
       "picturesDescription": []

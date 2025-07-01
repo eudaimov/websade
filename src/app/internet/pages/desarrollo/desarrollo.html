@@ -1,9 +1,15 @@
 <bannerseccion
   mainTitle="SOMOS TU PARTNER TECNOLÓGICO"
+  i18n-mainTitle="@@desarrollo.banner.mainTitle"
   secondaryTitle="Mas de 20 años acompañando a nuestros clientes
 y ofreciéndoles soluciones que les ayudan a crecer"
+  i18n-secondaryTitle="@@desarrollo.banner.secondaryTitle"
   image="BannerDesarrollo&Outsourcing.png"
 />
-<color-component titulo="Factores claves de la Factoría de software" [cards]="cardClavesFactoria" color="#023671" [columns]="6"/>
+<app-desarrollo-and-outsourcing/>
+<color-component
+  titulo="Factores claves de la Factoría de software"
+  i18n-titulo="@@desarrollo.color.titulo"
+  [cards]="cardClavesFactoria" color="#023671" [columns]="6"/>
 <carDuoMultiple [cards]="cardImagenes"/>
 <buscamosTalento/>

@@ -1,66 +1,72 @@
 
-<form class="grid grid-cols-2 p-12 gap-4">
+<form class="grid grid-cols-2 p-12 lg:p-24 gap-4">
   <select
      #asunto id="asunto"
     placeholder="Categoria"
     class="col-span-2">
-    <option value="none" disabled>Elije una opcion</option>
-    <option value="Fujitsu" >IA Privada Fujitsu</option>
-    <option value="Selektra" >Selektra H (Reclutamiento + IA)</option>
-    <option value="Office635" >Herramientas colaborativas Office365</option>
+    <option value="none" disabled i18n="@@solicitarDemo.formulario.elija">Elije una opcion</option>
+    <option value="Fujitsu" i18n="@@solicitarDemo.formulario.Fujitsu" >IA Privada Fujitsu</option>
+    <option value="Selektra" i18n="@@solicitarDemo.formulario.Slecktra">Selektra H (Reclutamiento + IA)</option>
+    <option value="Office635" i18n="@@solicitarDemo.formulario.Office635" >Herramientas colaborativas Office365</option>
 
   </select>
   <input
     type="text" #nombre id="nombre"
     placeholder="Nombre"
+    i18n-placeholder="@@solicitarDemo.formulario.nombre"
     class="col-span-2 md:col-span-1"
   />
   <input type="text" #apellidos id="apellidos"
       placeholder="Apellidos"
+         i18n-placeholder="@@solicitarDemo.formulario.apellidos"
          class="col-span-2 md:col-span-1"
   />
   <input type="email" #email id="email"
          class="col-span-2 md:col-span-1"
          placeholder="Correo electrónico"
+         i18n-placeholder="@@solicitarDemo.formulario.email"
   />
   <input type="tel" #telefono id="telefono"
          class="col-span-2 md:col-span-1"
          placeholder="Teléfono de contacto"
+         i18n-placeholder="@@solicitarDemo.formulario.phone"
   />
   <textarea  #mensaje id="mensaje"
              placeholder="Mensaje"
+             i18n-placeholder="@@solicitarDemo.formulario.message"
     class="col-span-2"
   ></textarea>
   <div class="col-span-2 flex gap-4 "
   >
     <input type="text" name="adjunto" id="adjunto" disabled placeholder="Archivo adjunto"
+           i18n-placeholder="@@solicitarDemo.formulario.adjunto"
       class="w-full"
     >
     <div class="flex justify-center items-center
-     bg-blue-500 text-white px-12 rounded-lg">
+     bg-blue-500 text-white px-12 rounded-lg" i18n="@@solicitarDemo.formulario.seleccionar">
       Seleccionar
     </div>
   </div>
   <div class="col-span-2 flex gap-4 items-center">
     <label class="formcontrol">
 
-      <input type="radio" class="" name="" id="politica">
+      <input type="radio"  name="politica" id="politica">
     </label>
 
-    <span>He leído y acepto la <strong>política de privacidad</strong> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</span>
+    <span i18n="@@solicitarDemo.formulario.politica">He leído y acepto la <strong>política de privacidad</strong> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</span>
   </div>
   <div class="col-span-2 flex gap-4 items-center">
     <label class="formcontrol">
 
-      <input type="radio" class="" name="" id="autorizacion">
+      <input type="radio" name="autorizacion" id="autorizacion">
     </label>
 
-    <span>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</span>
+    <span i18n="@@solicitarDemo.formulario.autorizacion">Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</span>
   </div>
 
   <div class="col-span-2 flex justify-center">
 
     <div class="px-8 py-4 rounded-lg w-[200px] bg-[dodgerblue] text-white hover:text-[dodgerblue] font-white cursor-pointer text-center font-bold
-          hover:bg-white  outline-solid outline-dodgerblue hover:outline-2 transition-all duration-500 ease-in-out">ENVIAR</div>
+          hover:bg-white  outline-solid outline-dodgerblue hover:outline-2 transition-all duration-500 ease-in-out" i18n="@@solicitarDemo.formulario.enviar">ENVIAR</div>
   </div>
 </form>

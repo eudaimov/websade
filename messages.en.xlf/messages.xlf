@@ -107,13 +107,6 @@
           <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="contactanos.formulario.titulo" datatype="html">
-        <source>Contáctanos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="contactanos.formulario.asunto" datatype="html">
         <source>Asunto</source>
         <context-group purpose="location">
@@ -182,139 +175,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/components/contactanos/contactanos.html</context>
           <context context-type="linenumber">70,73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.elija" datatype="html">
-        <source>Elije una opcion</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">7,8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.Fujitsu" datatype="html">
-        <source>IA Privada Fujitsu</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">8,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.Slecktra" datatype="html">
-        <source>Selektra H (Reclutamiento + IA)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">9,10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.Office635" datatype="html">
-        <source>Herramientas colaborativas Office365</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">10,14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.nombre" datatype="html">
-        <source>Nombre</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.apellidos" datatype="html">
-        <source>Apellidos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">20,21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.email" datatype="html">
-        <source>Correo electrónico</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">26,27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.phone" datatype="html">
-        <source>Teléfono de contacto</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">31,32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.message" datatype="html">
-        <source>Mensaje</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">35,36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.adjunto" datatype="html">
-        <source>Archivo adjunto</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">41,42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.seleccionar" datatype="html">
-        <source> Seleccionar </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">47,50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.politica" datatype="html">
-        <source>He leído y acepto la <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>política de privacidad<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> del sitio y las condiciones de tratamiento de mis datos de carácter personal.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">56,58</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.autorizacion" datatype="html">
-        <source>Autorizo al envío de comunicaciones informativas relativas a las actividades, productos o servicios por correo postal, correo electrónico o cualquier otro medio electrónico equivalente</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">64,67</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="solicitarDemo.formulario.enviar" datatype="html">
-        <source>ENVIAR</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/demoformulario/demoformulario.html</context>
-          <context context-type="linenumber">70,73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.outsourcing" datatype="html">
-        <source>Nos incorporamos en tu estructura para colaborar en tus proyectos más innovadores</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/desarrollo-and-outsourcing/desarrollo-and-outsourcing.html</context>
-          <context context-type="linenumber">3,4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.outsourcing.text" datatype="html">
-        <source> Cada vez es más habitual que todo tipo de compañías deleguen sus proyectos o tareas a equipos especializados con el fin de cubrir y afrontar innovaciones, cumplir con los objetivos y mejoras de la calidad de los productos desarrollados. Nuestro modelo de factoría, así como nuestro equipo de desarrollo, está orientado a alcanzar la máxima eficiencia a través de una cercanía e integración con nuestros clientes, así como la aplicación de un modelo fiable que mejore la calidad y reduzca costes operativos. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/desarrollo-and-outsourcing/desarrollo-and-outsourcing.html</context>
-          <context context-type="linenumber">6,12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.titulo" datatype="html">
-        <source>Optimizando el futuro del trabajo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/digitalizacion-text/digitalizacion-text.html</context>
-          <context context-type="linenumber">2,3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.texto.p1" datatype="html">
-        <source>La tecnología actual tiene una función crítica en la retención de empleados. El puesto y la forma de trabajar han cambiado para siempre y seguirán cambiando. Independientemente de si se accede de forma remota, en un entorno híbrido o en la oficina, los datos deben ser productivos y seguros. Tus empleados merecen poder trabajar de forma fluida, independientemente de dónde se encuentren. Y si no es así en su trabajo actual, lo buscarán en otra empresa.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/digitalizacion-text/digitalizacion-text.html</context>
-          <context context-type="linenumber">4,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.texto.p2" datatype="html">
-        <source>Los servicios de puesto de trabajo digital de SADE aportan un amplio conocimiento técnico y de licencias basadas en relaciones prolongadas con los principales fabricantes, entre ellos Microsoft y Google. Desde SADE queremos ayudar a las empresas a afrontar esta situación de la mejor manera posible.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/digitalizacion-text/digitalizacion-text.html</context>
-          <context context-type="linenumber">9,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="talento.envianosCV.titulo" datatype="html">
@@ -667,20 +527,6 @@
           <context context-type="linenumber">64,69</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ia.iagenerativa.titulo" datatype="html">
-        <source>La IA generativa puede aumentar la productividad sin reemplazar a los trabajadores</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/iagenerativa/iagenerativa.html</context>
-          <context context-type="linenumber">4,5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.iagenerativa.texto" datatype="html">
-        <source> Desde que la IA generativa se popularizó hace un año, ha generado tanto entusiasmo como preocupación a partes iguales. Sus defensores destacan su capacidad para transformar sectores enteros de la economía, mientras que los escépticos advierten sobre errores, posibles daños y el riesgo de desplazar a trabajadores humanos. Aunque su potencial es inmenso, solo recientemente se ha comenzado a estudiar su impacto real cuando se implementa a gran escala en entornos laborales. Un reciente estudio de la National Bureau of Economic Research (NBER) destaca que proporcionar a los trabajadores acceso a la IAGenerativa conduce a trabajadores más productivos, y una mayor retención de los empleados. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/iagenerativa/iagenerativa.html</context>
-          <context context-type="linenumber">7,10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="contactanos.mapacontacto.telefonos" datatype="html">
         <source>Teléfonos</source>
         <context-group purpose="location">
@@ -913,69 +759,6 @@
           <context context-type="linenumber">44,49</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="digitalizacion.soluciones.titulo" datatype="html">
-        <source>Soluciones</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.apptitulo1" datatype="html">
-        <source>Inday</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">21,22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.app1" datatype="html">
-        <source>Gestión Empleados</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">22,26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.apptitulo2" datatype="html">
-        <source>CRM</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">43,44</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.app2" datatype="html">
-        <source>CRM</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">44,48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.apptitulo3" datatype="html">
-        <source>Soluciones de gestión RRHH</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">65,66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.app3" datatype="html">
-        <source>Gesusu, Cuscus (DCP’s actualizado)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">66,70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.apptitulo4" datatype="html">
-        <source>Selección Personal</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">86,87</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.soluciona.app4" datatype="html">
-        <source>SeleKtra y SeleKtra AI</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/soluciones/soluciones.html</context>
-          <context context-type="linenumber">87,93</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="consultoria.tecnologia.titulo" datatype="html">
         <source>Tecnología como motor para cualquier organización</source>
         <context-group purpose="location">
@@ -997,144 +780,81 @@
           <context context-type="linenumber">7,11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="diferenciales.titulo" datatype="html">
-        <source>Desarrollamos proyectos en las tecnologías más avanzadas</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/tecnologias-diferencias-text/tecnologias-diferencias-text.html</context>
-          <context context-type="linenumber">2,3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.texto.p1" datatype="html">
-        <source>Hoy en día, el ritmo de avance tecnológico no tiene precedentes y la innovación tecnológica puede ser un valor diferencial en cualquier negocio. Los modelos de negocio están en constante cambio en todos los sectores, y la implementación de soluciones tecnológicas constituye una verdadera fuente de oportunidades, de gran importancia estratégica para cualquier empresa.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/tecnologias-diferencias-text/tecnologias-diferencias-text.html</context>
-          <context context-type="linenumber">4,8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.texto.p2" datatype="html">
-        <source>La especialización forma parte de nuestro ADN y nos permite conocer la tecnología más innovadora y eficaz del mercado para dar el mejor servicio a nuestros clientes.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/tecnologias-diferencias-text/tecnologias-diferencias-text.html</context>
-          <context context-type="linenumber">8,10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.texto.p3" datatype="html">
-        <source>Analizamos, aplicamos e implantamos las mejores tecnologías para evolucionar cada sector.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/components/tecnologias-diferencias-text/tecnologias-diferencias-text.html</context>
-          <context context-type="linenumber">10,13</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="route.homeTitle" datatype="html">
         <source>House</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.conocenosTitle" datatype="html">
         <source>Conócenos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.talentoTitle" datatype="html">
         <source>Talento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.noticiasTitle" datatype="html">
         <source>Noticias</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.contactanosTitle" datatype="html">
         <source>Contáctanos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.consultoriaTitle" datatype="html">
         <source>Consultoría</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.iaGenerativaTitle" datatype="html">
         <source>IA Generativa Privada</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.desarrolloTitle" datatype="html">
         <source>Desarrollo y Outsourcing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.tdiferencialesTitle" datatype="html">
         <source>Tecnologías Diferenciales</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.digitalizacionTitle" datatype="html">
         <source>Digitalización y Trabajo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="route.demoTitle" datatype="html">
         <source>Solicitar una demos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="route.aviso" datatype="html">
-        <source>Aviso Legal</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">115</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="route.politicaPrivacidad" datatype="html">
-        <source>Política de Privacidad</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">123</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="route.politicaCookies" datatype="html">
-        <source>Política de Cookies</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">131</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="route.politicaCandidatos" datatype="html">
-        <source>Política de Candidatos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">139</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="route.canalEtico" datatype="html">
-        <source>Canal Etico</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/internet.routes.ts</context>
-          <context context-type="linenumber">147</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="conocenos.portada.mainTitle" datatype="html">
@@ -1246,7 +966,7 @@
             &lt;p class=&apos;mb-4&apos;&gt;&lt;strong&gt;Realizamos un Diagnóstico 360º&lt;/strong&gt;, realizamos una assessment IT en profundidad de tu empresa para tener una fotografía completa del escenario de partida.&lt;/p&gt;
             &lt;p&gt;&lt;strong&gt; Realizamos un Plan de Acción&lt;/strong&gt;, te presentamos un completo plan de acción con las medidas a tomar para optimizar y mejorar las áreas IT analizadas.&lt;/p&gt;
             &lt;p&gt; &lt;strong&gt;Implantación del Plan de Acción&lt;/strong&gt;, podemos acompañarte y ayudarte a realizar los cambios propuestos. Somos la mejor garantía del éxito de la implantación.&lt;/p&gt;
-               &lt;p&gt;&lt;strong&gt; Evaluación y Resultados&lt;/strong&gt;, te proporcionamos un estudio final comparativo, entre el estado inicial y el estado final de tu empresa para evaluar los resultados.&lt;/p&gt;</source>
+               &lt;p&gt;&lt;strong&gt; Evaluación y Resultados, te proporcionamos un estudio final comparativo, entre el estado inicial y el estado final de tu empresa para evaluar los resultados.&lt;/p&gt;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/pages/consultoria/consultoria.ts</context>
           <context context-type="linenumber">56,60</context>
@@ -1353,157 +1073,7 @@ y ofreciéndoles soluciones que les ayudan a crecer</source>
         <source>Factores claves de la Factoría de software</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.html</context>
-          <context context-type="linenumber">11,12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo1" datatype="html">
-        <source>Demanda privada en crecimiento</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto1" datatype="html">
-        <source>Con el fin de afrontar las innovaciones necesarias en el sector, reducción de costes y la mejora de calidad.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo2" datatype="html">
-        <source>Comunicación flexible y relaciones excelentes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">30</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto2" datatype="html">
-        <source>Cada vez es más importante contar con procesos de seguimiento de las tareas y sistemas de control de calidad.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo3" datatype="html">
-        <source>Más allá del ahorro de costes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto3" datatype="html">
-        <source>Más que un ahorro de costes para la organización, hablamos de ahorro de tiempo, menor riesgo y mayor estabilidad.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo4" datatype="html">
-        <source>Colaboración por la innovación</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto4" datatype="html">
-        <source>La asociatividad y colaboración entre empresas impulsa las fortalezas, al mismo tiempo que mantiene su autonomía.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo5" datatype="html">
-        <source>Enfoque Integral a largo plazo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto5" datatype="html">
-        <source>Hoy en día el outsourcing es más una estrategia de desarrollo a largo plazo que un servicio en si mismo.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.titulo6" datatype="html">
-        <source>Contratación legal</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardColor.texto6" datatype="html">
-        <source>Cualquier actividad puede externalizarse si se identifica como &quot;legalmente externalizable&quot;.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.descripcion1" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Los procesos de transformación del negocio y la implantación de innovaciones tecnológicas se han convertido en una prioridad en las organizaciones. Ya no basta con que los procesos de negocio se alineen con la tecnología, sino que ésta debe adaptarse al negocio para ser capaz de transformar todos sus procesos.&lt;/p&gt; +
-        &lt;p class=&apos;normal&apos;&gt;En SADE permitimos a nuestros clientes centrarse en su core de negocio. Nuestra experiencia para iniciar nuevos proyectos rápidamente permite a nuestros clientes ser más ágiles y reducir su time-to-market&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">60,61</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.titulo1" datatype="html">
-        <source>Asumimos funciones de las organizaciones externalizando sus procesos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.descripcion2" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Los márgenes de acción en el ámbito tecnológico se estrechan cada vez más y la inversión constante en IT es imprescindible para no perder competitividad. Por esa razón, contar con un proveedor que entienda la organización, sus procesos de negocio y el entorno competitivo donde desarrolla su actividad permitirá aunar esfuerzos y recursos, agilizando los desarrollos y adoptando las mejores decisiones en un tiempo récord.&lt;/p&gt; +
-        &lt;p class=&apos;normal&apos;&gt;En SADE estamos totalmente orientados al servicio. Aseguramos los objetivos de nuestros clientes mediante nuestra óptima calidad de procesos.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">68,69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.titulo2" datatype="html">
-        <source>Creamos servicios que garantizan los objetivos operativos de nuestros clientes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.descripcion3" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Servicios gestionados, donde realizamos todo tipo de desarrollo tecnológico, proyectos a medida para cada cliente y necesidad. Aportando valor a nuestros clientes con nuestra experiencia y know-how.&lt;/p&gt; +
-        &lt;p class=&apos;normal&apos;&gt;Nuestro outsourcing se basa en las mejores prácticas en la aplicación de las tecnologías de la información y el conocimiento.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">76,77</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.titulo3" datatype="html">
-        <source>Desarrollamos soluciones innovadoras a medida</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">78</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.descripcion4" datatype="html">
-        <source>
-        &lt;p class=&quot;normal&quot;&gt;
-            Aplicamos la innovación a un modelo propio de la gestión del talento. En SADE creemos que las personas están por encima de los procesos.
-        &lt;/p&gt;
-        &lt;p class=&quot;normal&quot;&gt;
-            Proporcionamos a las compañías personal cualificado a un coste sin competencia en el mercado y también con una amplia experiencia profesional en el sector tecnológico.
-        &lt;/p&gt;
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">84,91</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="desarrollo.cardDuo.titulo4" datatype="html">
-        <source>Las personas como elemento clave de nuestro servicio de Outsourcing</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/desarrollo/desarrollo.ts</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="digitalizacion.banner.mainTitle" datatype="html">
@@ -1524,175 +1094,7 @@ y ofreciéndoles soluciones que les ayudan a crecer</source>
         <source>La digitalización: la clave del éxito de las empresas</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.html</context>
-          <context context-type="linenumber">10,11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo1" datatype="html">
-        <source>Asesoramos y acompañamos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto1" datatype="html">
-        <source>Asesoramos y acompañamos en la construcción de una infraestructura Cloud segura y migramos las cargas de trabajo de forma eficaz.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo2" datatype="html">
-        <source>Microsoft 365</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto2" datatype="html">
-        <source>Utilizamos toda la potencia de Microsoft 365 con sus soluciones de colaboración, telefonía, gestión, seguridad y control de amenazas.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo3" datatype="html">
-        <source>24x7</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto3" datatype="html">
-        <source>Asegura un lugar de trabajo moderno con asistencia especializada 24x7, concienciación sobre seguridad y control de amenazas.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo4" datatype="html">
-        <source>Modernización de aplicaciones</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto4" datatype="html">
-        <source>Evaluamos las aplicaciones críticas para la empresa y determinamos si es necesario cambiarlas, refactorizarlas o reconstruirlas.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo5" datatype="html">
-        <source>Diseñamos soluciones</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto5" datatype="html">
-        <source>Diseñamos soluciones nativas en la nube con contenedores, entornos sin servidores, análisis de datos y pilas IA y AA.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.titulo6" datatype="html">
-        <source>Rentabilidad</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardColor.texto6" datatype="html">
-        <source>Rentabiliza al máximo tus inversiones para reducir los gastos asociados a licencias y dimensionar correctamente el uso del Cloud.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title1" datatype="html">
-        <source>Servicios Cloud</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description1" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;SADE es consciente de que no hay un único camino al Cloud y que cada compañía se encuentra en un grado de madurez diferente, o pueden tener una estrategia o perseguir unos objetivos distintos. En SADE tenemos en cuenta el Cloud Journey de cada cliente para ofrecer unos servicios y unas soluciones que se ajusten a sus necesidades.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title2" datatype="html">
-        <source>Soluciones de comunicación unificadas</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description2" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Tus clientes y socios necesitan llamar y comunicarse con tus empleados trabajen donde trabajen. El trabajo híbrido y remoto está cambiando el rumbo de los sistemas de comunicaciones. Aportamos experiencia y soluciones modulares para cubrir las necesidades de cualquier organización.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title3" datatype="html">
-        <source>Servicios de automatización</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description3" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Transformar negocios requiere la mejora continua de los procesos ante las nuevas necesidades del mercado. En estrategias de automatización se necesita que se comprendan los procesos y el comportamiento de los datos relacionados, que los cambios se apliquen con rapidez mediante tecnologías que requieran poca o ninguna codificación, y que los trabajadores tengan la capacidad de automatizar las tareas. En SADE proporcionamos una estrategia de automatización y experiencia que pueden reducir los costes operativos.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title4" datatype="html">
-        <source>Modernización de aplicaciones</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">80</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description4" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Modernizar las aplicaciones mediante el rewriting o refactoring del código para hacerlas nativas en el Cloud es crucial para alcanzar todos los beneficios que desean las empresas. Este enfoque de migración de las aplicaciones heredadas puede ser un proceso lento y caro. En SADE ayudamos a los clientes a evaluar, planificar, desarrollar e implementar aplicaciones en la nube.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title5" datatype="html">
-        <source>Desarrollo de aplicaciones cloud</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">87</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description5" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Las aplicaciones son los cimientos de un entorno maduro en el Cloud. Pero hacer el trabajo exige tiempo, así como recursos de diseño y desarrollo que escapan a las competencias de la mayoría de los equipos de IT. Trabajar con un socio de confianza suele ser la vía más rápida para las empresas cuando se necesita lanzar una experiencia de usuario móvil, un servicio web, un microservicio o una aplicación contenerizada. Es esencial forjar una relación basada en la confianza.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">88</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.title6" datatype="html">
-        <source>Seguridad en el puesto de trabajo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">94</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="digitalizacion.cardDuo.description6" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;El teletrabajo es el futuro, por lo que los datos nunca han sido tan accesibles ni han estado tan expuestos. Los robos por parte de intrusos malintencionados o las pérdidas por errores de los empleados son preocupaciones reales a las que las empresas hacen frente día a día. Se estima que de tres a cinco días a la semana se puede teletrabajar, y que esos empleados deben conectarse a las plataformas de gestión de servicios para coordinar su trabajo y registrar los resultados. Ayudamos a mantener la seguridad de los datos empresariales independientemente del lugar desde el que trabaje tu equipo.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/digitalizacion/digitalizacion.ts</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="home.servicios&amp;soluciones.titulo" datatype="html">
@@ -1779,167 +1181,6 @@ y ofreciéndoles soluciones que les ayudan a crecer</source>
           <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ia.cardColor.titulo1" datatype="html">
-        <source>Privacidad, Gobierno del dato y Seguridad</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto1" datatype="html">
-        <source>Almacenamiento local en vuestros propios servidores, garantizando que la información confidencial nunca abandone vuestra red interna.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.titulo2" datatype="html">
-        <source>Control Total</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">30</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto2" datatype="html">
-        <source>Capacidad de personalizar y ajustar el modelo según las necesidades específicas de vuestro negocio, sin depender de proveedores externos.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.titulo3" datatype="html">
-        <source>Capacidades de Ajuste Fino</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto3" datatype="html">
-        <source>Adaptación a los casos de uso concretos de cada departamento, mejorando la precisión y relevancia en tareas especializadas.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.titulo4" datatype="html">
-        <source>Independencia del Proveedor</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto4" datatype="html">
-        <source>Evita la dependencia de proveedores externos, reduciendo costes a largo plazo y minimizando riesgos de exposición de datos.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.titulo5" datatype="html">
-        <source>Cumplimiento Normativo Europeo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto5" datatype="html">
-        <source>Desarrollado en Europa, cumpliendo con todas las normativas de protección de datos y regulaciones de IA.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.titulo6" datatype="html">
-        <source>Mejor ROI</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardColor.texto6" datatype="html">
-        <source>Sin coste de licenciamiento, convirtiéndose en una opción extremadamente rentable.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.description1" datatype="html">
-        <source>&lt;li class=&apos;normal list-disc&apos;&gt;&lt;strong&gt;Almacenamiento local:&lt;/strong&gt;
-                A diferencia de los modelos alojados en la nube, PrivateGPT permite que las empresas mantengan los datos dentro de sus propios servidores o infraestructura privada. Esto garantiza que los datos confidenciales no salgan de la red de la empresa.&lt;/li&gt;
-         &lt;li class=&apos;normal list-disc&apos;&gt;&lt;strong&gt;Control total:&lt;/strong&gt;
-                Las organizaciones pueden ajustar y personalizar el modelo según sus necesidades, sin depender de un proveedor externo que maneje su información.&lt;/li&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">59,63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.titulo1" datatype="html">
-        <source>Privacidad y seguridad</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.description2" datatype="html">
-        <source>&lt;p class=&apos;normal&apos;&gt;Las empresas pueden ajustar el modelo a sus casos de uso específicos. Esto les permite personalizar el modelo con terminología o conocimientos específicos de su sector, lo que mejora la precisión en tareas especializadas.&lt;/p&gt;
-          &lt;p&gt;Las empresas pueden ajustar el modelo a sus casos de uso específicos. Esto les permite personalizar el modelo con terminología o conocimientos específicos de su sector, lo que mejora la precisión en tareas especializadas.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">70,72</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.titulo2" datatype="html">
-        <source>Capacidades de ajuste fino</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.description3" datatype="html">
-        <source>&lt;p class=&apos;normal&apos;&gt;Una ventaja clave de PrivateGPT es la capacidad de evitar la dependencia de proveedores como OpenAI, Google, o Amazon. Esto puede ser útil en escenarios donde las empresas buscan reducir costos a largo plazo o evitar la exposición de datos sensibles a actores externos.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">79</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.titulo3" datatype="html">
-        <source>Independencia del proveedor</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">80</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.description4" datatype="html">
-        <source>&lt;ul class=&apos;list-disc&apos;&gt;
-            &lt;li&gt;El LLM (Mistral) ha sido desarrollado en Europa, con lo que cumple de salida con toda la normativa europea que regula el uso de las IA.&lt;/li&gt;
-            &lt;li&gt;El LLM (Mistral) esConcepto iPhone: es un Hardware para un Software, o un Software para un Hardware.&lt;/li&gt;
-         &lt;/ul&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">86,89</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.titulo4" datatype="html">
-        <source>Desarrollado en Europa</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">90</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.description5" datatype="html">
-        <source>&lt;p class=&apos;normal&apos;&gt;No hay coste de licenciamiento. Da igual el número de usuarios que vayan a trabajar con él, de diferentes departamentos. Se pueden crear tantos departamentos o secciones dentro de un departamento como se quieran. Nadie va a ver nada que no tenga que ver internamente&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ia.cardDuo.titulo5" datatype="html">
-        <source>Mejor ROI</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/ia/ia.ts</context>
-          <context context-type="linenumber">97</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="talento.portada.mainTitle" datatype="html">
         <source>Talento</source>
         <context-group purpose="location">
@@ -1972,169 +1213,7 @@ y ofreciéndoles soluciones que les ayudan a crecer</source>
         <source>Evoluciona tu negocio con la tecnología del futuro</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.html</context>
-          <context context-type="linenumber">10,11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="difereciales.cardColor.titulo1" datatype="html">
-        <source>Especialización</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardColor.texto1" datatype="html">
-        <source>Disponemos de equipos expertos en todas las áreas TIC</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="difereciales.cardColor.titulo2" datatype="html">
-        <source>Comprometidos con la innovación</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">30</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardColor.texto2" datatype="html">
-        <source>Más del 30% de la actividad empresarial es I+D+i</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="difereciales.cardColor.titulo3" datatype="html">
-        <source>Pensando en el cliente</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardColor.texto3" datatype="html">
-        <source>Implementación tecnológica analizando las características de cada cliente</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description1" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Las soluciones de colaboración impulsan la productividad, generan innovación, y hacen que el conocimiento fluya y florezca dentro de la organización. En SADE lo abordamos teniendo en cuenta todos los ángulos de influencia posible, y utilizamos las tecnologías más punteras, como Liferay, y Sharepoint, para crear soluciones realmente eficientes, útiles y accesibles desde cualquier dispositivo.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo1" datatype="html">
-        <source>Desarrollo de entornos de colaboración</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description2" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;En SADE desarrollamos soluciones robotizadas (RPA) con tecnología UIPath, que simulan las acciones de un usuario. El objetivo fundamental es automatizar los procesos de negocio que son muy repetitivos, basados en normas y que utilizan información estructurada, estos desarrollos tienen como objeto optimizar costes y mejorar la productividad de la empresa.&lt;/p&gt;
-      &lt;li class=&apos;list-disc&apos;&gt;Reducción en el número de FTEs requeridos en los procesos de negocio robotizados&lt;/li&gt;
-      &lt;li class=&apos;list-disc&apos;&gt;Incremento de la productividad 24/7 mejorando la ventana de operación y ganando elasticidad&lt;/li&gt;
-      &lt;li class=&apos;list-disc&apos;&gt;Reducción del tiempo medio de gestión&lt;/li&gt;
-      &lt;li class=&apos;list-disc&apos;&gt;Incremento de la calidad Error humano eliminado, menor revisión&lt;/li&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">51,55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo2" datatype="html">
-        <source>RPA - Soluciones robotizadas</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description3" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;La movilidad de los recursos de la empresa supone a la vez un reto y una oportunidad. En el contexto competitivo actual, las empresas tienen recursos humanos dotados de una alta movilidad, con una importante necesidad operativa y estratégica de acceso a la información corporativa anytime, anywhere. En SADE desarrollamos en las principales tecnologías del mercado aplicaciones que ayudan a las empresas a mejorar la productividad.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo3" datatype="html">
-        <source>Desarrollo Móvil</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description4" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Equipos de desarrollo, donde realizamos todo tipo de desarrollos tecnológicos y proyectos a medida para cada cliente y necesidad. Aportando valor a nuestros clientes con nuestra experiencia y know-how.&lt;/p&gt;+
-        &lt;p class=&apos;normal&apos;&gt;Nuestro outsourcing se basa en las mejores prácticas en la aplicación de las tecnologías de la información y el conocimiento&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">69,70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo4" datatype="html">
-        <source>Desarrollamos soluciones innovadoras a medida</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description5" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;Consolidamos los principales servicios informáticos de Microsoft para empresas en un área especializada y experta. Te ofrecemos toda la cartera de herramientas de Microsoft adaptadas a tus necesidades de negocio.&lt;/p&gt;+
-        &lt;p class=&apos;normal&apos;&gt;Nuestro objetivo es ofrecer soluciones ágiles que permitan incrementar la eficiencia de cualquier negocio. Para ello contamos con una paquetización y desarrollo customizados en base a las necesidades de tu negocio.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">77,78</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo5" datatype="html">
-        <source>Microsoft Services</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">79</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description6" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;En SADE somos expertos en construir aplicaciones basadas en microservicios, conjuntos de pequeños servicios, con operaciones bien definidas e independientes entre sí. Cada microservicio ejecuta su propio proceso y se encarga de implementar una funcionalidad completa del negocio.&lt;/p&gt;
-        &lt;p class=&apos;normal&apos;&gt;Te ayudamos a definir e implantar una estrategia de desarrollo en microservicios, que asegure la viabilidad del cambio y la obtención de los beneficios según el ciclo de vida previsto.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">85,86</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo6" datatype="html">
-        <source>Microservicios</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">87</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description7" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;En SADE contamos con profesionales expertos en el desarrollo, mantenimiento e integración de las aplicaciones corporativas que interconectan los diferentes sistemas específicos disponibles en la empresa, tales como ERPs o CRMs.&lt;/p&gt;
-        &lt;p class=&apos;normal&apos;&gt;Entre nuestros casos de éxito contamos con especialistas con sistemas de gestión como: &lt;strong&gt;SAP&lt;/strong&gt; y &lt;strong&gt;Salesforce&lt;/strong&gt;.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">93,94</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo7" datatype="html">
-        <source>Desarrollo e integración de soluciones especializadas</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">95</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.description8" datatype="html">
-        <source>&lt;p class=&apos;normal mb-4&apos;&gt;En SADE sabemos que el desarrollo front-end en un entorno Microsoft 365 generalmente implica el uso de tecnologías web estándar como HTML, CSS y JavaScript, así como la comprensión de los frameworks y bibliotecas relevantes, como Vue, React o Angular, dependiendo de las tecnologías preferidas en el entorno específico y las necesidades de nuestros clientes, motor de nuestra compañía.&lt;/p&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">101</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diferenciales.cardDuo.titulo8" datatype="html">
-        <source>Desarrollo Front-End</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/internet/pages/tdiferenciales/tdiferenciales.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
     </body>

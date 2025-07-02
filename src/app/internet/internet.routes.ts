@@ -11,6 +11,11 @@ import {Consultoria} from './pages/consultoria/consultoria';
 import {ContactanosPage} from './pages/contactanos/contactanos';
 import {Noticias} from './pages/noticias/noticias';
 import {Demo} from './pages/demo/demo';
+import {Avisolegal} from './pages/avisolegal/avisolegal';
+import {PoliticaPrivacidad} from './pages/politica-privacidad/politica-privacidad';
+import {PoliticaCookies} from './pages/politica-cookies/politica-cookies';
+import {PoliticaCandidatos} from './pages/politica-candidatos/politica-candidatos';
+import {CanalEtico} from './pages/canal-etico/canal-etico';
 
 // No es estrictamente necesario importarlo si @angular/localize está configurado,
 // pero puede ayudar a la claridad o si el linter lo pide.
@@ -104,6 +109,46 @@ export const internetRoute: Routes = [
           category: 'suelta'
         },
         component: Demo
+      },
+      {
+        path: 'avisoLegal',
+        title: $localize`:@@route.aviso:Aviso Legal`,
+        data: {
+          category: 'suelta'
+        },
+        component: Avisolegal
+      },
+      {
+        path: 'politicaPrivacidad',
+        title: $localize`:@@route.politicaPrivacidad:Política de Privacidad`,
+        data: {
+          category: 'suelta'
+        },
+        component: PoliticaPrivacidad
+      },
+      {
+        path: 'politicaCookies',
+        title: $localize`:@@route.politicaCookies:Política de Cookies`,
+        data: {
+          category: 'suelta'
+        },
+        component: PoliticaCookies
+      },
+      {
+        path: 'politicaCandidatos',
+        title: $localize`:@@route.politicaCandidatos:Política de Candidatos`,
+        data: {
+          category: 'suelta'
+        },
+        component: PoliticaCandidatos
+      },
+      {
+        path: 'canalEtico',
+        title: $localize`:@@route.canalEtico:Canal Etico`,
+        data: {
+          category: 'suelta'
+        },
+        component: CanalEtico
       },
       {
         path:'**',
